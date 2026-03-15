@@ -1,0 +1,501 @@
+employee_id,raw_job_title,department,state,employer_name,employer_industry_anzsic,employer_industry_name,is_labour_hire,host_employer_name,host_employer_industry_anzsic,host_employer_industry_name,expected_anzsco_code,expected_anzsco_title
+EMP0001,Enrolled Nurse,Nursing,SA,Adecco,7212,Labour Supply Services,True,Bupa Aged Care,8601,Aged Care Residential,411411,Enrolled Nurse
+EMP0002,Scrum Master,Agile,NSW,Deloitte Digital,6921,Computer System Design,False,,,,511112,Program or Project Administrator
+EMP0003,Accounts Payable Clerk,Finance,NSW,IGA Marketplace,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0004,Data Entry,Operations,QLD,Randstad,7212,Labour Supply Services,True,NAB,6200,Finance,532111,Data Entry Operator
+EMP0005,Boilermaker/Welder,Manufacturing,VIC,Rio Tinto,0800,Mining Support,False,,,,322311,Metal Fabricator
+EMP0006,Painter,Construction,VIC,John Holland,3011,Building Construction,False,,,,332211,Painting Trades Worker
+EMP0007,Wait Staff,Restaurant,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Merivale,9111,Cafes and Restaurants,431511,Waiter
+EMP0008,Nurse (Registered),Ward 3,VIC,Austin Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0009,Commercial Cleaner,Cleaning,QLD,Randstad,7212,Labour Supply Services,True,Victorian Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0010,Training Manager,L&D,QLD,University of Queensland,8010,Education,False,,,,223311,Training and Development Professional
+EMP0011,Receptionist,Admin,QLD,Cognizant Australia,6921,Computer System Design,False,,,,542111,Receptionist (General)
+EMP0012,Forklift Operator,Distribution,SA,Linfox,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0013,Management Accountant,Finance,QLD,Commonwealth Bank,6200,Finance,False,,,,221112,Management Accountant
+EMP0014,SW Developer,Technology,WA,Deloitte Digital,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0015,HR Business Partner,People & Culture,VIC,IGA Marketplace,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0016,Sysadmin,IT,WA,TCS Australia,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0017,Accounts Payable Clerk,Finance,VIC,Coles,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0018,Accounts Payable Clerk,Finance,SA,IGA Marketplace,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0019,Data Engineer,Data Platform,NSW,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0020,RN,Nursing,WA,Labour Solutions Australia,7212,Labour Supply Services,True,Austin Health,8401,Hospitals,254411,Nurse Practitioner
+EMP0021,Plumber,Trades,NSW,Lendlease,3011,Building Construction,False,,,,334111,Plumber (General)
+EMP0022,BDM,Sales,NSW,Deloitte Digital,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0023,Management Accountant,Finance,NSW,ANZ Bank,6200,Finance,False,,,,221112,Management Accountant
+EMP0024,ICT Business Analyst,Technology,WA,TCS Australia,6921,Computer System Design,False,,,,261111,ICT Business Analyst
+EMP0025,Reg Nurse,Emergency,QLD,Royal Melbourne Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0026,Data Entry,Operations,VIC,Westpac,6200,Finance,False,,,,532111,Data Entry Operator
+EMP0027,Store Manager,Retail,NSW,IGA Marketplace,1111,Supermarkets,False,,,,142111,Retail Manager (General)
+EMP0028,Graphic Designer,Design,NSW,TCS Australia,6921,Computer System Design,False,,,,232411,Graphic Designer
+EMP0029,Commercial Cleaner,Cleaning,NSW,Randstad,7212,Labour Supply Services,True,Queensland Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0030,BDM,Sales,VIC,Deloitte Digital,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0031,FLT Driver,Logistics,WA,DHL Supply Chain,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0032,Financial Analyst,Corporate Finance,NSW,NAB,6200,Finance,False,,,,222311,Financial Investment Adviser
+EMP0033,Sparky,Trades,VIC,Lendlease,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0034,Painter,Construction,QLD,John Holland,3011,Building Construction,False,,,,332211,Painting Trades Worker
+EMP0035,Electrician,Maintenance,NSW,CIMIC Group,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0036,Chef,Kitchen,NSW,Adecco,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,351311,Chef
+EMP0037,Reg Nurse,Emergency,QLD,Royal Melbourne Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0038,Crane Operator,Construction,NSW,John Holland,3011,Building Construction,False,,,,721211,"Crane, Hoist or Lift Operator"
+EMP0039,Boilermaker/Welder,Manufacturing,QLD,Randstad,7212,Labour Supply Services,True,Fortescue Metals Group,0800,Mining Support,322311,Metal Fabricator
+EMP0040,Payroll Officer,People & Culture,VIC,NAB,6200,Finance,False,,,,551211,Bookkeeper
+EMP0041,FLT Driver,Logistics,SA,Toll Group,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0042,Plumber,Trades,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,John Holland,3011,Building Construction,334111,Plumber (General)
+EMP0043,Bartender,Bar,QLD,Merivale,9111,Cafes and Restaurants,False,,,,431111,Bar Attendant
+EMP0044,Boilermaker/Welder,Manufacturing,NSW,Randstad,7212,Labour Supply Services,True,Rio Tinto,0800,Mining Support,322311,Metal Fabricator
+EMP0045,Warehouse Worker,Warehouse,NSW,Linfox,5310,Warehousing,False,,,,741111,Storeperson
+EMP0046,Diesel Mechanic,Fleet,WA,Adecco,7212,Labour Supply Services,True,BHP,0800,Mining Support,321212,Diesel Motor Mechanic
+EMP0047,Chef,Kitchen,QLD,Rockpool Dining Group,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0048,Kitchen Hand,Kitchen,SA,Manpower,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,851111,Fast Food Cook
+EMP0049,Carpenter,Construction,TAS,Randstad,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,331111,Carpenter
+EMP0050,Brickie,Construction,QLD,John Holland,3011,Building Construction,False,,,,331112,Bricklayer
+EMP0051,Paramedic,Emergency,NSW,Monash Health,8401,Hospitals,False,,,,411111,Ambulance Officer
+EMP0052,Commercial Cleaner,Cleaning,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,NSW Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0053,Warehouse Worker,Warehouse,NSW,Toll Group,5310,Warehousing,False,,,,741111,Storeperson
+EMP0054,Security Officer,Security,VIC,Prosegur,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0055,Registered Nurse,Nursing,QLD,Monash Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0056,Store Manager,Retail,NSW,Coles,1111,Supermarkets,False,,,,142111,Retail Manager (General)
+EMP0057,Project Manager,PMO,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,511112,Program or Project Administrator
+EMP0058,Reg Nurse,Emergency,QLD,St Vincent's Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0059,Data Entry,Operations,VIC,Randstad,7212,Labour Supply Services,True,ANZ Bank,6200,Finance,532111,Data Entry Operator
+EMP0060,Enrolled Nurse,Nursing,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,Benetas,8601,Aged Care Residential,411411,Enrolled Nurse
+EMP0061,Hotel Manager,Management,NSW,Marriott International,4400,Accommodation,False,,,,141111,Hotel or Motel Manager
+EMP0062,Cleaner,Facilities,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,St Vincent's Hospital,8401,Hospitals,811211,Commercial Cleaner
+EMP0063,Shop Assistant,Retail,NSW,IGA Marketplace,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0064,Snr Software Eng,Engineering,QLD,TCS Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0065,Picker/Packer,Fulfilment,VIC,Toll Group,5310,Warehousing,False,,,,741111,Storeperson
+EMP0066,Forklift Driver,Warehouse,QLD,Adecco,7212,Labour Supply Services,True,Linfox,5310,Warehousing,721999,Mobile Plant Operators nec
+EMP0067,Warehouse Worker,Warehouse,SA,Hays Specialist Recruitment,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,741111,Storeperson
+EMP0068,BDM,Sales,NSW,TCS Australia,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0069,Bricklayer,Construction,SA,Lendlease,3011,Building Construction,False,,,,331112,Bricklayer
+EMP0070,Delivery Driver,Distribution,NSW,Toll Freight,2911,Road Freight Transport,False,,,,733114,Tanker Driver
+EMP0071,Store Manager,Retail,VIC,Coles,1111,Supermarkets,False,,,,142111,Retail Manager (General)
+EMP0072,Cleaner,Facilities,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Austin Health,8401,Hospitals,811211,Commercial Cleaner
+EMP0073,Diesel Mechanic,Fleet,WA,Manpower,7212,Labour Supply Services,True,BHP,0800,Mining Support,321212,Diesel Motor Mechanic
+EMP0074,Carpenter,Construction,VIC,John Holland,3011,Building Construction,False,,,,331111,Carpenter
+EMP0075,Sparky,Trades,NSW,CIMIC Group,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0076,Chef,Kitchen,NSW,Merivale,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0077,Sales Manager,Sales,NSW,Coles,1111,Supermarkets,False,,,,131112,Sales and Marketing Manager
+EMP0078,Receptionist,Admin,VIC,Deloitte Digital,6921,Computer System Design,False,,,,542111,Receptionist (General)
+EMP0079,Enrolled Nurse,Nursing,QLD,Monash Health,8401,Hospitals,False,,,,411411,Enrolled Nurse
+EMP0080,Digital Marketing Specialist,Digital,VIC,TCS Australia,6921,Computer System Design,False,,,,225113,Marketing Specialist
+EMP0081,Helpdesk Analyst,IT Support,VIC,Accenture,6921,Computer System Design,False,,,,313111,Hardware Technician
+EMP0082,Senior Software Engineer,Engineering,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,Deloitte Digital,6921,Computer System Design,261312,Developer Programmer
+EMP0083,Plumber,Trades,NSW,Manpower,7212,Labour Supply Services,True,CIMIC Group,3011,Building Construction,334111,Plumber (General)
+EMP0084,Diesel Mechanic,Fleet,NSW,Randstad,7212,Labour Supply Services,True,Fortescue Metals Group,0800,Mining Support,321212,Diesel Motor Mechanic
+EMP0085,Commercial Cleaner,Cleaning,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,NSW Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0086,Civil Engineer,Engineering,NSW,John Holland,3011,Building Construction,False,,,,233211,Civil Engineer
+EMP0087,Crane Operator,Site,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Fortescue Metals Group,0800,Mining Support,721211,"Crane, Hoist or Lift Operator"
+EMP0088,PM,Delivery,QLD,Multiplex,3011,Building Construction,False,,,,511112,Program or Project Administrator
+EMP0089,General Labourer,Construction,SA,Lendlease,3011,Building Construction,False,,,,899999,Labourers nec
+EMP0090,Sous Chef,Kitchen,NSW,Collins Hospitality,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0091,HR Advisor,People,NSW,ANZ Bank,6200,Finance,False,,,,223111,Human Resource Adviser
+EMP0092,Store Manager,Retail,NSW,Coles,1111,Supermarkets,False,,,,142111,Retail Manager (General)
+EMP0093,Wait Staff,Restaurant,NSW,Manpower,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,431511,Waiter
+EMP0094,HR Business Partner,People & Culture,VIC,Woolworths,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0095,Receptionist,Admin,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,ANZ Bank,6200,Finance,542111,Receptionist (General)
+EMP0096,BA,Technology,NSW,Adecco,7212,Labour Supply Services,True,NAB,6200,Finance,261111,ICT Business Analyst
+EMP0097,Enrolled Nurse,Nursing,NT,Hays Specialist Recruitment,7212,Labour Supply Services,True,Bupa Aged Care,8601,Aged Care Residential,411411,Enrolled Nurse
+EMP0098,Crane Operator,Site,VIC,Manpower,7212,Labour Supply Services,True,Rio Tinto,0800,Mining Support,721211,"Crane, Hoist or Lift Operator"
+EMP0099,HRBP,HR,QLD,Cognizant Australia,6921,Computer System Design,False,,,,223111,Human Resource Adviser
+EMP0100,IT Support,IT,QLD,TCS Australia,6921,Computer System Design,False,,,,313113,Web Administrator
+EMP0101,Chef,Kitchen,VIC,Rockpool Dining Group,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0102,Electrician,Maintenance,NSW,John Holland,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0103,Sous Chef,Kitchen,QLD,Merivale,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0104,AP Clerk,Finance,QLD,NAB,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0105,HR Business Partner,People & Culture,NSW,IGA Marketplace,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0106,Electrical Tradesperson,Facilities,NSW,John Holland,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0107,Bookkeeper,Finance,VIC,ANZ Bank,6200,Finance,False,,,,551211,Bookkeeper
+EMP0108,MC Driver,Transport,NSW,Linfox Transport,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0109,Picker/Packer,Fulfilment,QLD,DHL Supply Chain,5310,Warehousing,False,,,,741111,Storeperson
+EMP0110,Electrician A Grade,Construction,SA,John Holland,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0111,Head Chef,Kitchen,VIC,Collins Hospitality,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0112,RN,Nursing,SA,Austin Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0113,Construction Labourer,Site,NSW,Lendlease,3011,Building Construction,False,,,,821711,Construction Rigger
+EMP0114,Account Manager,Sales,NSW,Deloitte Digital,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0115,Kitchen Hand,Kitchen,NSW,Merivale,9111,Cafes and Restaurants,False,,,,851111,Fast Food Cook
+EMP0116,General Labourer,Construction,NSW,Adecco,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,899999,Labourers nec
+EMP0117,SW Developer,Technology,QLD,Accenture,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0118,Cleaner,Facilities,NSW,Spotless Group,2400,Building Cleaning,False,,,,811211,Commercial Cleaner
+EMP0119,HRBP,HR,QLD,Cognizant Australia,6921,Computer System Design,False,,,,223111,Human Resource Adviser
+EMP0120,Full Stack Developer,Engineering,QLD,TCS Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0121,Receptionist,Admin,WA,Adecco,7212,Labour Supply Services,True,Commonwealth Bank,6200,Finance,542111,Receptionist (General)
+EMP0122,Scrum Master,Agile,QLD,Deloitte Digital,6921,Computer System Design,False,,,,511112,Program or Project Administrator
+EMP0123,Electrical Tradesperson,Facilities,WA,CIMIC Group,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0124,AP Clerk,Finance,NSW,NAB,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0125,Cleaner,Facilities,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,Royal Melbourne Hospital,8401,Hospitals,811211,Commercial Cleaner
+EMP0126,Snr Software Eng,Engineering,QLD,Deloitte Digital,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0127,Software Dev III,Engineering,NSW,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0128,Picker/Packer,Fulfilment,NSW,Toll Group,5310,Warehousing,False,,,,741111,Storeperson
+EMP0129,Boilermaker/Welder,Manufacturing,NSW,Fortescue Metals Group,0800,Mining Support,False,,,,322311,Metal Fabricator
+EMP0130,Security Officer,Security,VIC,Wilson Security,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0131,Accounts Payable Clerk,Finance,WA,Coles,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0132,Barista,Cafe,NSW,Collins Hospitality,9111,Cafes and Restaurants,False,,,,431999,Hospitality Workers nec
+EMP0133,FLT Driver,Logistics,QLD,DHL Supply Chain,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0134,Forky,Warehouse,NSW,Randstad,7212,Labour Supply Services,True,Coles,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0135,Executive Assistant,Executive,QLD,ANZ Bank,6200,Finance,False,,,,521111,Personal Assistant
+EMP0136,Executive Assistant,Executive,VIC,NAB,6200,Finance,False,,,,521111,Personal Assistant
+EMP0137,Receptionist,Admin,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,Commonwealth Bank,6200,Finance,542111,Receptionist (General)
+EMP0138,Electrical Tradesperson,Facilities,WA,John Holland,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0139,EN,Nursing,VIC,Monash Health,8401,Hospitals,False,,,,411411,Enrolled Nurse
+EMP0140,Senior Software Engineer,Engineering,VIC,TCS Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0141,Chippy,Construction,NSW,Lendlease,3011,Building Construction,False,,,,331111,Carpenter
+EMP0142,Snr Data Analyst,Analytics,WA,Westpac,6200,Finance,False,,,,224214,Statistics - Data Analyst
+EMP0143,EA,Executive,NSW,Manpower,7212,Labour Supply Services,True,Cognizant Australia,6921,Computer System Design,521111,Personal Assistant
+EMP0144,Construction Labourer,Site,NSW,Multiplex,3011,Building Construction,False,,,,821711,Construction Rigger
+EMP0145,Sysadmin,IT,TAS,Accenture,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0146,ML Engineer,AI,QLD,Deloitte Digital,6921,Computer System Design,False,,,,261399,Software and Applications Programmers nec
+EMP0147,Forky,Warehouse,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,IGA Marketplace,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0148,Chef,Kitchen,NSW,Merivale,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0149,Accounts Payable Clerk,Finance,VIC,Coles,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0150,Marketing Manager,Marketing,QLD,Deloitte Digital,6921,Computer System Design,False,,,,131112,Sales and Marketing Manager
+EMP0151,MC Driver,Transport,WA,Toll Freight,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0152,Project Manager,PMO,VIC,TCS Australia,6921,Computer System Design,False,,,,511112,Program or Project Administrator
+EMP0153,Painter,Construction,NSW,Manpower,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,332211,Painting Trades Worker
+EMP0154,Truck Driver,Transport,VIC,Toll Freight,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0155,Boilermaker/Welder,Manufacturing,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,Rio Tinto,0800,Mining Support,322311,Metal Fabricator
+EMP0156,MC Driver,Transport,WA,Linfox Transport,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0157,Plumber,Trades,SA,Lendlease,3011,Building Construction,False,,,,334111,Plumber (General)
+EMP0158,Pharmacist,Pharmacy,VIC,St Vincent's Hospital,8401,Hospitals,False,,,,251511,Hospital Pharmacist
+EMP0159,Payroll Officer,People & Culture,NSW,ANZ Bank,6200,Finance,False,,,,551211,Bookkeeper
+EMP0160,Admin Officer,Admin,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,NSW Government,7000,Public Administration,531111,General Clerk
+EMP0161,Cashier,Front End,WA,Coles,1111,Supermarkets,False,,,,611311,Checkout Operator
+EMP0162,Data Analyst,Analytics,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,IGA Marketplace,1111,Supermarkets,224214,Statistics - Data Analyst
+EMP0163,SW Developer,Technology,QLD,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0164,Plumber,Trades,ACT,Randstad,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,334111,Plumber (General)
+EMP0165,Cleaner,Facilities,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,Royal Melbourne Hospital,8401,Hospitals,811211,Commercial Cleaner
+EMP0166,Diesel Mechanic,Fleet,NSW,Adecco,7212,Labour Supply Services,True,BHP,0800,Mining Support,321212,Diesel Motor Mechanic
+EMP0167,Retail Assistant,Retail,NSW,Coles,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0168,Delivery Driver,Distribution,VIC,Linfox Transport,2911,Road Freight Transport,False,,,,733114,Tanker Driver
+EMP0169,Full Stack Developer,Engineering,ACT,Accenture,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0170,Structural Engineer,Engineering,WA,John Holland,3011,Building Construction,False,,,,233214,Structural Engineer
+EMP0171,Paramedic,Emergency,VIC,Monash Health,8401,Hospitals,False,,,,411111,Ambulance Officer
+EMP0172,Cook,Kitchen,VIC,Merivale,9111,Cafes and Restaurants,False,,,,351411,Cook
+EMP0173,BDM,Sales,SA,Accenture,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0174,RN,Nursing,NSW,Randstad,7212,Labour Supply Services,True,St Vincent's Hospital,8401,Hospitals,254411,Nurse Practitioner
+EMP0175,Crane Operator,Construction,QLD,CIMIC Group,3011,Building Construction,False,,,,721211,"Crane, Hoist or Lift Operator"
+EMP0176,HR Manager,People & Culture,VIC,TCS Australia,6921,Computer System Design,False,,,,132311,Human Resource Manager
+EMP0177,Wait Staff,Restaurant,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,431511,Waiter
+EMP0178,Wait Staff,Restaurant,SA,Manpower,7212,Labour Supply Services,True,Merivale,9111,Cafes and Restaurants,431511,Waiter
+EMP0179,Tax Accountant,Tax,VIC,KPMG Australia,6932,Auditing Services,False,,,,221113,Taxation Accountant
+EMP0180,Welder,Manufacturing,VIC,Incitec Pivot,2410,Manufacturing,False,,,,322311,Metal Fabricator
+EMP0181,Payroll Officer,HR,NSW,Adecco,7212,Labour Supply Services,True,Woolworths,1111,Supermarkets,551211,Bookkeeper
+EMP0182,Financial Analyst,Corporate Finance,WA,Westpac,6200,Finance,False,,,,222311,Financial Investment Adviser
+EMP0183,Junior Dev,Technology,QLD,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0184,Commercial Cleaner,Cleaning,NSW,Randstad,7212,Labour Supply Services,True,NSW Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0185,AP Clerk,Finance,SA,Commonwealth Bank,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0186,Data Analyst,Analytics,VIC,Adecco,7212,Labour Supply Services,True,IGA Marketplace,1111,Supermarkets,224214,Statistics - Data Analyst
+EMP0187,Civil Engineer,Engineering,NSW,CIMIC Group,3011,Building Construction,False,,,,233211,Civil Engineer
+EMP0188,Forky,Warehouse,SA,Manpower,7212,Labour Supply Services,True,Coles,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0189,Security Guard,Security,SA,Prosegur,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0190,Helpdesk Analyst,IT Support,WA,Deloitte Digital,6921,Computer System Design,False,,,,313111,Hardware Technician
+EMP0191,Forklift Driver,Warehouse,WA,Adecco,7212,Labour Supply Services,True,Toll Group,5310,Warehousing,721999,Mobile Plant Operators nec
+EMP0192,Sysadmin,IT,WA,TCS Australia,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0193,Pick Packer,Warehouse,SA,Woolworths,1111,Supermarkets,False,,,,741111,Storeperson
+EMP0194,Wait Staff,Restaurant,VIC,Randstad,7212,Labour Supply Services,True,Rockpool Dining Group,9111,Cafes and Restaurants,431511,Waiter
+EMP0195,Shop Assistant,Retail,SA,IGA Marketplace,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0196,Sales Manager,Sales,VIC,Woolworths,1111,Supermarkets,False,,,,131112,Sales and Marketing Manager
+EMP0197,Sales Manager,Sales,SA,Coles,1111,Supermarkets,False,,,,131112,Sales and Marketing Manager
+EMP0198,BA,Technology,NSW,Manpower,7212,Labour Supply Services,True,Westpac,6200,Finance,261111,ICT Business Analyst
+EMP0199,Senior Software Engineer,Engineering,QLD,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0200,Snr .NET Dev,Technology,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,NAB,6200,Finance,261312,Developer Programmer
+EMP0201,Executive Assistant,Executive,VIC,Commonwealth Bank,6200,Finance,False,,,,521111,Personal Assistant
+EMP0202,Physiotherapist,Allied Health,NSW,St Vincent's Hospital,8401,Hospitals,False,,,,252511,Physiotherapist
+EMP0203,Registered Nurse - ICU,ICU,VIC,Monash Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0204,ML Engineer,AI,VIC,TCS Australia,6921,Computer System Design,False,,,,261399,Software and Applications Programmers nec
+EMP0205,Data Analyst,Analytics,QLD,Accenture,6921,Computer System Design,False,,,,224214,Statistics - Data Analyst
+EMP0206,Recruiter,Talent,NSW,Adecco,7212,Labour Supply Services,False,,,,223112,Recruitment Consultant
+EMP0207,Software Dev III,Engineering,VIC,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0208,Hotel Manager,Management,QLD,Marriott International,4400,Accommodation,False,,,,141111,Hotel or Motel Manager
+EMP0209,Carpenter,Construction,VIC,Randstad,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,331111,Carpenter
+EMP0210,General Labourer,Construction,VIC,John Holland,3011,Building Construction,False,,,,899999,Labourers nec
+EMP0211,Junior Dev,Technology,WA,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0212,Chef,Kitchen,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Rockpool Dining Group,9111,Cafes and Restaurants,351311,Chef
+EMP0213,Diesel Mechanic,Fleet,NSW,Linfox Transport,2911,Road Freight Transport,False,,,,321212,Diesel Motor Mechanic
+EMP0214,Boilermaker,Heavy Industry,NSW,BlueScope Steel,2410,Manufacturing,False,,,,322111,Blacksmith
+EMP0215,Civil Engineer,Engineering,QLD,CIMIC Group,3011,Building Construction,False,,,,233211,Civil Engineer
+EMP0216,Chef,Kitchen,NSW,Adecco,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,351311,Chef
+EMP0217,EA,CEO Office,VIC,Accenture,6921,Computer System Design,False,,,,521111,Personal Assistant
+EMP0218,Shop Assistant,Retail,WA,Coles,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0219,UX Designer,Product,QLD,Cognizant Australia,6921,Computer System Design,False,,,,232414,Web Designer
+EMP0220,Forklift Driver,Warehouse,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,721999,Mobile Plant Operators nec
+EMP0221,Scrum Master,Agile,SA,Accenture,6921,Computer System Design,False,,,,511112,Program or Project Administrator
+EMP0222,Snr .NET Dev,Technology,ACT,Hays Specialist Recruitment,7212,Labour Supply Services,True,Westpac,6200,Finance,261312,Developer Programmer
+EMP0223,Admin Officer,Admin,QLD,NSW Government,7000,Public Administration,False,,,,531111,General Clerk
+EMP0224,Crane Operator,Site,QLD,Randstad,7212,Labour Supply Services,True,Rio Tinto,0800,Mining Support,721211,"Crane, Hoist or Lift Operator"
+EMP0225,Aged Care Worker,Aged Care,NSW,Bupa Aged Care,8601,Aged Care Residential,False,,,,423111,Aged or Disabled Carer
+EMP0226,Data Analyst,Analytics,NSW,Adecco,7212,Labour Supply Services,True,Woolworths,1111,Supermarkets,224214,Statistics - Data Analyst
+EMP0227,Pick Packer,Fulfilment,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,Toll Group,5310,Warehousing,741111,Storeperson
+EMP0228,Creditors Clerk,Finance,NSW,NAB,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0229,Security Guard,Security,QLD,Wilson Security,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0230,EA,Executive,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,Deloitte Digital,6921,Computer System Design,521111,Personal Assistant
+EMP0231,General Labourer,Construction,NSW,Adecco,7212,Labour Supply Services,True,CIMIC Group,3011,Building Construction,899999,Labourers nec
+EMP0232,Paramedic,Emergency,QLD,Austin Health,8401,Hospitals,False,,,,411111,Ambulance Officer
+EMP0233,Data Engineer,Data Platform,VIC,Accenture,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0234,Registered Nurse,Nursing,NSW,St Vincent's Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0235,Crane Operator,Site,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,BHP,0800,Mining Support,721211,"Crane, Hoist or Lift Operator"
+EMP0236,Creditors Clerk,Finance,QLD,NAB,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0237,Sysadmin,IT,NSW,Accenture,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0238,Forklift Driver,Warehouse,WA,Manpower,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,721999,Mobile Plant Operators nec
+EMP0239,ML Engineer,AI,VIC,Cognizant Australia,6921,Computer System Design,False,,,,261399,Software and Applications Programmers nec
+EMP0240,Forklift Driver,Warehouse,SA,Linfox,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0241,Auditor,Audit,NSW,PwC Australia,6932,Auditing Services,False,,,,221213,External Auditor
+EMP0242,HR Manager,People & Culture,VIC,Deloitte Digital,6921,Computer System Design,False,,,,132311,Human Resource Manager
+EMP0243,Motor Mechanic,Automotive,VIC,Ultra Tune,9411,Automotive Repair,False,,,,321211,Motor Mechanic (General)
+EMP0244,Office Manager,Operations,NSW,TCS Australia,6921,Computer System Design,False,,,,512111,Office Manager
+EMP0245,Helpdesk Analyst,IT Support,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,Queensland Government,7000,Public Administration,313111,Hardware Technician
+EMP0246,Wait Staff,Restaurant,VIC,Adecco,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,431511,Waiter
+EMP0247,Data Analyst,Analytics,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,Woolworths,1111,Supermarkets,224214,Statistics - Data Analyst
+EMP0248,Warehouse Worker,Warehouse,NSW,Manpower,7212,Labour Supply Services,True,Toll Group,5310,Warehousing,741111,Storeperson
+EMP0249,Forklift Driver,Warehouse,QLD,Randstad,7212,Labour Supply Services,True,Linfox,5310,Warehousing,721999,Mobile Plant Operators nec
+EMP0250,Warehouse Worker,Warehouse,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,741111,Storeperson
+EMP0251,Forklift Operator,Distribution,VIC,Toll Group,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0252,EA,Executive,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,TCS Australia,6921,Computer System Design,521111,Personal Assistant
+EMP0253,Diesel Mechanic,Fleet,VIC,Manpower,7212,Labour Supply Services,True,BHP,0800,Mining Support,321212,Diesel Motor Mechanic
+EMP0254,Bartender,Bar,NSW,Rockpool Dining Group,9111,Cafes and Restaurants,False,,,,431111,Bar Attendant
+EMP0255,Senior Software Engineer,Engineering,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,Cognizant Australia,6921,Computer System Design,261312,Developer Programmer
+EMP0256,Diesel Mechanic,Fleet,WA,Toll Freight,2911,Road Freight Transport,False,,,,321212,Diesel Motor Mechanic
+EMP0257,Paramedic,Emergency,NSW,Royal Melbourne Hospital,8401,Hospitals,False,,,,411111,Ambulance Officer
+EMP0258,Warehouse Worker,Warehouse,QLD,Manpower,7212,Labour Supply Services,True,Linfox,5310,Warehousing,741111,Storeperson
+EMP0259,FLT Driver,Logistics,VIC,DHL Supply Chain,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0260,ICT Business Analyst,Technology,SA,TCS Australia,6921,Computer System Design,False,,,,261111,ICT Business Analyst
+EMP0261,Reg Nurse,Emergency,QLD,Royal Melbourne Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0262,Data Entry,Operations,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Westpac,6200,Finance,532111,Data Entry Operator
+EMP0263,Picker/Packer,Fulfilment,NSW,Toll Group,5310,Warehousing,False,,,,741111,Storeperson
+EMP0264,Senior Software Engineer,Engineering,QLD,Randstad,7212,Labour Supply Services,True,TCS Australia,6921,Computer System Design,261312,Developer Programmer
+EMP0265,AP Clerk,Finance,VIC,Commonwealth Bank,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0266,AP Clerk,Finance,VIC,Westpac,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0267,Security Guard,Security,QLD,Prosegur,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0268,Bartender,Bar,NSW,Merivale,9111,Cafes and Restaurants,False,,,,431111,Bar Attendant
+EMP0269,HRBP,HR,NSW,Accenture,6921,Computer System Design,False,,,,223111,Human Resource Adviser
+EMP0270,Data Scientist,Data Science,QLD,Deloitte Digital,6921,Computer System Design,False,,,,224999,Information and Organisation Professionals nec
+EMP0271,HC Driver,Logistics,NSW,Adecco,7212,Labour Supply Services,True,Toll Freight,2911,Road Freight Transport,733111,Truck Driver (General)
+EMP0272,Data Analyst,Analytics,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,Coles,1111,Supermarkets,224214,Statistics - Data Analyst
+EMP0273,Sparky,Trades,NSW,Manpower,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,341111,Electrician (General)
+EMP0274,UX Designer,Product,QLD,Deloitte Digital,6921,Computer System Design,False,,,,232414,Web Designer
+EMP0275,ICT Business Analyst,Technology,QLD,Cognizant Australia,6921,Computer System Design,False,,,,261111,ICT Business Analyst
+EMP0276,Aged Care Worker,Aged Care,VIC,Benetas,8601,Aged Care Residential,False,,,,423111,Aged or Disabled Carer
+EMP0277,Project Manager,PMO,NSW,Accenture,6921,Computer System Design,False,,,,511112,Program or Project Administrator
+EMP0278,Cashier,Front End,QLD,Coles,1111,Supermarkets,False,,,,611311,Checkout Operator
+EMP0279,Pick Packer,Warehouse,QLD,IGA Marketplace,1111,Supermarkets,False,,,,741111,Storeperson
+EMP0280,Warehouse Worker,Warehouse,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,741111,Storeperson
+EMP0281,Kitchen Hand,Kitchen,WA,Adecco,7212,Labour Supply Services,True,Rockpool Dining Group,9111,Cafes and Restaurants,851111,Fast Food Cook
+EMP0282,Boilermaker/Welder,Manufacturing,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,Fortescue Metals Group,0800,Mining Support,322311,Metal Fabricator
+EMP0283,Chef,Kitchen,NSW,Merivale,9111,Cafes and Restaurants,False,,,,351311,Chef
+EMP0284,Data Scientist,Data Science,WA,TCS Australia,6921,Computer System Design,False,,,,224999,Information and Organisation Professionals nec
+EMP0285,Carpenter,Construction,QLD,Lendlease,3011,Building Construction,False,,,,331111,Carpenter
+EMP0286,Cleaner,Facilities,NSW,Adecco,7212,Labour Supply Services,True,St Vincent's Hospital,8401,Hospitals,811211,Commercial Cleaner
+EMP0287,PM,Delivery,NSW,CIMIC Group,3011,Building Construction,False,,,,511112,Program or Project Administrator
+EMP0288,HR Business Partner,People & Culture,VIC,IGA Marketplace,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0289,Cleaner,Facilities,ACT,Randstad,7212,Labour Supply Services,True,Royal Melbourne Hospital,8401,Hospitals,811211,Commercial Cleaner
+EMP0290,Commercial Cleaner,Cleaning,WA,Labour Solutions Australia,7212,Labour Supply Services,True,Queensland Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0291,Wait Staff,Restaurant,SA,Collins Hospitality,9111,Cafes and Restaurants,False,,,,431511,Waiter
+EMP0292,Construction Labourer,Site,NSW,Multiplex,3011,Building Construction,False,,,,821711,Construction Rigger
+EMP0293,Bookkeeper,Finance,NSW,Commonwealth Bank,6200,Finance,False,,,,551211,Bookkeeper
+EMP0294,Helpdesk Analyst,IT Support,QLD,Deloitte Digital,6921,Computer System Design,False,,,,313111,Hardware Technician
+EMP0295,Full Stack Developer,Engineering,NSW,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0296,Site Manager,Construction,WA,Multiplex,3011,Building Construction,False,,,,133111,Construction Project Manager
+EMP0297,Physio,Allied Health,VIC,Royal Melbourne Hospital,8401,Hospitals,False,,,,252511,Physiotherapist
+EMP0298,Full Stack Developer,Engineering,QLD,Deloitte Digital,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0299,Marketing Manager,Marketing,QLD,Cognizant Australia,6921,Computer System Design,False,,,,131112,Sales and Marketing Manager
+EMP0300,Construction Labourer,Site,NSW,Multiplex,3011,Building Construction,False,,,,821711,Construction Rigger
+EMP0301,Warehouse Worker,Warehouse,NSW,Adecco,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,741111,Storeperson
+EMP0302,Sales Associate,Store,VIC,,9200,Clothing Retailing,False,,,,621111,Sales Assistant (General)
+EMP0303,Bricklayer,Construction,NSW,CIMIC Group,3011,Building Construction,False,,,,331112,Bricklayer
+EMP0304,Graphic Designer,Design,SA,TCS Australia,6921,Computer System Design,False,,,,232411,Graphic Designer
+EMP0305,Cleaner,Facilities,VIC,Broadspectrum,2400,Building Cleaning,False,,,,811211,Commercial Cleaner
+EMP0306,Tax Accountant,Tax,ACT,Ernst & Young,6932,Auditing Services,False,,,,221113,Taxation Accountant
+EMP0307,Junior Dev,Technology,VIC,Cognizant Australia,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0308,Receptionist,Admin,NSW,Manpower,7212,Labour Supply Services,True,NAB,6200,Finance,542111,Receptionist (General)
+EMP0309,PCA,Aged Care,WA,Randstad,7212,Labour Supply Services,True,Bupa Aged Care,8601,Aged Care Residential,423111,Aged or Disabled Carer
+EMP0310,Project Manager,PMO,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,John Holland,3011,Building Construction,511112,Program or Project Administrator
+EMP0311,HC Driver,Logistics,NSW,Adecco,7212,Labour Supply Services,True,StarTrack,2911,Road Freight Transport,733111,Truck Driver (General)
+EMP0312,General Labourer,Construction,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,899999,Labourers nec
+EMP0313,UX Designer,Product,SA,Accenture,6921,Computer System Design,False,,,,232414,Web Designer
+EMP0314,PCA,Aged Care,WA,Randstad,7212,Labour Supply Services,True,Regis Aged Care,8601,Aged Care Residential,423111,Aged or Disabled Carer
+EMP0315,Bricklayer,Construction,VIC,CIMIC Group,3011,Building Construction,False,,,,331112,Bricklayer
+EMP0316,Security Guard,Security,QLD,Wilson Security,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0317,Enrolled Nurse,Nursing,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,Bupa Aged Care,8601,Aged Care Residential,411411,Enrolled Nurse
+EMP0318,Delivery Driver,Distribution,VIC,Linfox Transport,2911,Road Freight Transport,False,,,,733114,Tanker Driver
+EMP0319,ICT Business Analyst,Technology,QLD,Cognizant Australia,6921,Computer System Design,False,,,,261111,ICT Business Analyst
+EMP0320,Forky,Warehouse,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,Coles,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0321,Data Engineer,Data Platform,WA,Accenture,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0322,RN,Nursing,NSW,St Vincent's Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0323,Crane Operator,Construction,VIC,CIMIC Group,3011,Building Construction,False,,,,721211,"Crane, Hoist or Lift Operator"
+EMP0324,BDM,Sales,NSW,TCS Australia,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0325,Civil Engineer,Engineering,SA,Lendlease,3011,Building Construction,False,,,,233211,Civil Engineer
+EMP0326,Boilermaker/Welder,Manufacturing,QLD,Rio Tinto,0800,Mining Support,False,,,,322311,Metal Fabricator
+EMP0327,Chef,Kitchen,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,351311,Chef
+EMP0328,Truck Driver,Transport,VIC,Toll Freight,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0329,Cashier,Front End,VIC,Coles,1111,Supermarkets,False,,,,611311,Checkout Operator
+EMP0330,Boilermaker/Welder,Manufacturing,NSW,Fortescue Metals Group,0800,Mining Support,False,,,,322311,Metal Fabricator
+EMP0331,Nurse (Registered),Ward 3,VIC,Monash Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0332,Project Manager,PMO,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,511112,Program or Project Administrator
+EMP0333,Structural Engineer,Engineering,SA,Lendlease,3011,Building Construction,False,,,,233214,Structural Engineer
+EMP0334,Warehouse Worker,Warehouse,QLD,DHL Supply Chain,5310,Warehousing,False,,,,741111,Storeperson
+EMP0335,Sparky,Trades,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,CIMIC Group,3011,Building Construction,341111,Electrician (General)
+EMP0336,Kitchen Hand,Kitchen,WA,Adecco,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,851111,Fast Food Cook
+EMP0337,Snr Data Analyst,Analytics,QLD,Commonwealth Bank,6200,Finance,False,,,,224214,Statistics - Data Analyst
+EMP0338,HR Advisor,People,NSW,Westpac,6200,Finance,False,,,,223111,Human Resource Adviser
+EMP0339,Accounts Payable Clerk,Finance,NSW,IGA Marketplace,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0340,Data Analyst,Analytics,VIC,TCS Australia,6921,Computer System Design,False,,,,224214,Statistics - Data Analyst
+EMP0341,Commercial Cleaner,Cleaning,WA,Adecco,7212,Labour Supply Services,True,Queensland Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0342,Helpdesk Analyst,IT Support,NSW,Deloitte Digital,6921,Computer System Design,False,,,,313111,Hardware Technician
+EMP0343,Site Manager,Construction,VIC,CIMIC Group,3011,Building Construction,False,,,,133111,Construction Project Manager
+EMP0344,Admin/Reception,Office,NSW,Multiplex,3011,Building Construction,False,,,,542111,Receptionist (General)
+EMP0345,Payroll Officer,HR,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,IGA Marketplace,1111,Supermarkets,551211,Bookkeeper
+EMP0346,Admin Officer,Admin,NSW,NSW Government,7000,Public Administration,False,,,,531111,General Clerk
+EMP0347,Management Accountant,Finance,QLD,ANZ Bank,6200,Finance,False,,,,221112,Management Accountant
+EMP0348,Snr Data Analyst,Analytics,NSW,NAB,6200,Finance,False,,,,224214,Statistics - Data Analyst
+EMP0349,EA,Executive,NSW,Randstad,7212,Labour Supply Services,True,Accenture,6921,Computer System Design,521111,Personal Assistant
+EMP0350,Software Dev III,Engineering,WA,Deloitte Digital,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0351,Payroll Officer,HR,SA,Adecco,7212,Labour Supply Services,True,IGA Marketplace,1111,Supermarkets,551211,Bookkeeper
+EMP0352,Cleaner,Facilities,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Austin Health,8401,Hospitals,811211,Commercial Cleaner
+EMP0353,Cook,Kitchen,VIC,Rockpool Dining Group,9111,Cafes and Restaurants,False,,,,351411,Cook
+EMP0354,Truck Driver,Transport,VIC,Linfox Transport,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0355,Account Manager,Sales,WA,Cognizant Australia,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0356,Recruiter,Talent,VIC,Adecco,7212,Labour Supply Services,False,,,,223112,Recruitment Consultant
+EMP0357,Warehouse Worker,Warehouse,SA,Hays Specialist Recruitment,7212,Labour Supply Services,True,Linfox,5310,Warehousing,741111,Storeperson
+EMP0358,Chippy,Construction,NSW,John Holland,3011,Building Construction,False,,,,331111,Carpenter
+EMP0359,Hotel Manager,Management,NSW,Accor Hotels,4400,Accommodation,False,,,,141111,Hotel or Motel Manager
+EMP0360,Project Manager,PMO,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,511112,Program or Project Administrator
+EMP0361,Bricklayer,Construction,NSW,Lendlease,3011,Building Construction,False,,,,331112,Bricklayer
+EMP0362,HR Business Partner,People & Culture,NSW,Coles,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0363,Enrolled Nurse,Nursing,NSW,Manpower,7212,Labour Supply Services,True,Estia Health,8601,Aged Care Residential,411411,Enrolled Nurse
+EMP0364,Wait Staff,Restaurant,QLD,Randstad,7212,Labour Supply Services,True,Merivale,9111,Cafes and Restaurants,431511,Waiter
+EMP0365,Pick Packer,Fulfilment,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,Toll Group,5310,Warehousing,741111,Storeperson
+EMP0366,Aged Care Worker,Aged Care,NSW,Regis Aged Care,8601,Aged Care Residential,False,,,,423111,Aged or Disabled Carer
+EMP0367,Welder,Manufacturing,WA,BlueScope Steel,2410,Manufacturing,False,,,,322311,Metal Fabricator
+EMP0368,Warehouse Worker,Warehouse,NSW,Toll Group,5310,Warehousing,False,,,,741111,Storeperson
+EMP0369,Forky,Warehouse,QLD,Linfox,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0370,Crane Operator,Site,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,BHP,0800,Mining Support,721211,"Crane, Hoist or Lift Operator"
+EMP0371,Receptionist,Admin,NSW,Adecco,7212,Labour Supply Services,True,ANZ Bank,6200,Finance,542111,Receptionist (General)
+EMP0372,Security Guard,Security,NSW,Prosegur,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0373,Waiter,Restaurant,WA,Merivale,9111,Cafes and Restaurants,False,,,,431511,Waiter
+EMP0374,Painter,Construction,QLD,Randstad,7212,Labour Supply Services,True,John Holland,3011,Building Construction,332211,Painting Trades Worker
+EMP0375,Commercial Cleaner,Cleaning,QLD,ISS Facility Services,2400,Building Cleaning,False,,,,811211,Commercial Cleaner
+EMP0376,EA,Executive,VIC,Adecco,7212,Labour Supply Services,True,TCS Australia,6921,Computer System Design,521111,Personal Assistant
+EMP0377,Painter,Construction,QLD,Lendlease,3011,Building Construction,False,,,,332211,Painting Trades Worker
+EMP0378,Retail Assistant,Retail,QLD,IGA Marketplace,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0379,Sysadmin,IT,WA,Cognizant Australia,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0380,Snr Data Analyst,Analytics,VIC,NAB,6200,Finance,False,,,,224214,Statistics - Data Analyst
+EMP0381,Forky,Warehouse,VIC,Linfox,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0382,HR Business Partner,People & Culture,VIC,Woolworths,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0383,Warehouse Worker,Warehouse,QLD,Manpower,7212,Labour Supply Services,True,Toll Group,5310,Warehousing,741111,Storeperson
+EMP0384,Site Manager,Construction,WA,Multiplex,3011,Building Construction,False,,,,133111,Construction Project Manager
+EMP0385,Pick Packer,Fulfilment,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,DHL Supply Chain,5310,Warehousing,741111,Storeperson
+EMP0386,HR Business Partner,People & Culture,QLD,Coles,1111,Supermarkets,False,,,,223111,Human Resource Adviser
+EMP0387,Structural Engineer,Engineering,NSW,CIMIC Group,3011,Building Construction,False,,,,233214,Structural Engineer
+EMP0388,HC Driver,Logistics,QLD,Manpower,7212,Labour Supply Services,True,Toll Freight,2911,Road Freight Transport,733111,Truck Driver (General)
+EMP0389,EA,CEO Office,NSW,Accenture,6921,Computer System Design,False,,,,521111,Personal Assistant
+EMP0390,Site Manager,Construction,QLD,John Holland,3011,Building Construction,False,,,,133111,Construction Project Manager
+EMP0391,Data Entry,Operations,VIC,ANZ Bank,6200,Finance,False,,,,532111,Data Entry Operator
+EMP0392,Scrum Master,Agile,NSW,TCS Australia,6921,Computer System Design,False,,,,511112,Program or Project Administrator
+EMP0393,AP Clerk,Finance,TAS,Commonwealth Bank,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0394,Kitchen Hand,Kitchen,NSW,Merivale,9111,Cafes and Restaurants,False,,,,851111,Fast Food Cook
+EMP0395,Admin Officer,Admin,VIC,Queensland Government,7000,Public Administration,False,,,,531111,General Clerk
+EMP0396,RN,Nursing,WA,Adecco,7212,Labour Supply Services,True,Austin Health,8401,Hospitals,254411,Nurse Practitioner
+EMP0397,Forklift Operator,Distribution,QLD,DHL Supply Chain,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0398,Marketing Manager,Marketing,NSW,Deloitte Digital,6921,Computer System Design,False,,,,131112,Sales and Marketing Manager
+EMP0399,Construction Labourer,Site,VIC,CIMIC Group,3011,Building Construction,False,,,,821711,Construction Rigger
+EMP0400,HC Driver,Logistics,ACT,Labour Solutions Australia,7212,Labour Supply Services,True,Toll Freight,2911,Road Freight Transport,733111,Truck Driver (General)
+EMP0401,Pharmacist,Pharmacy,VIC,Royal Melbourne Hospital,8401,Hospitals,False,,,,251511,Hospital Pharmacist
+EMP0402,Admin Officer,Admin,ACT,Victorian Government,7000,Public Administration,False,,,,531111,General Clerk
+EMP0403,Licensed Plumber,Maintenance,QLD,CIMIC Group,3011,Building Construction,False,,,,334111,Plumber (General)
+EMP0404,Tax Accountant,Tax,NSW,KPMG Australia,6932,Auditing Services,False,,,,221113,Taxation Accountant
+EMP0405,Picker/Packer,Fulfilment,WA,Linfox,5310,Warehousing,False,,,,741111,Storeperson
+EMP0406,Forky,Warehouse,NSW,Adecco,7212,Labour Supply Services,True,Woolworths,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0407,Pick Packer,Warehouse,NSW,Coles,1111,Supermarkets,False,,,,741111,Storeperson
+EMP0408,Accounts Payable Clerk,Finance,VIC,IGA Marketplace,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0409,Physiotherapist,Allied Health,VIC,Royal Melbourne Hospital,8401,Hospitals,False,,,,252511,Physiotherapist
+EMP0410,Forky,Warehouse,VIC,Labour Solutions Australia,7212,Labour Supply Services,True,Coles,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0411,Storeman,Warehouse,VIC,Linfox,5310,Warehousing,False,,,,741111,Storeperson
+EMP0412,Forklift Driver,Warehouse,NSW,DHL Supply Chain,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0413,Reg Nurse,Emergency,SA,Royal Melbourne Hospital,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0414,BDM,Sales,QLD,Deloitte Digital,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0415,Truck Driver,Transport,SA,Toll Freight,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0416,Recruiter,Talent,NSW,Adecco,7212,Labour Supply Services,False,,,,223112,Recruitment Consultant
+EMP0417,Pick Packer,Warehouse,WA,IGA Marketplace,1111,Supermarkets,False,,,,741111,Storeperson
+EMP0418,PCA,Aged Care,NSW,Manpower,7212,Labour Supply Services,True,Regis Aged Care,8601,Aged Care Residential,423111,Aged or Disabled Carer
+EMP0419,Admin/Reception,Office,VIC,CIMIC Group,3011,Building Construction,False,,,,542111,Receptionist (General)
+EMP0420,Warehouse Worker,Warehouse,VIC,Linfox,5310,Warehousing,False,,,,741111,Storeperson
+EMP0421,BDM,Sales,WA,Accenture,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0422,Sales Associate,Store,VIC,,9200,Clothing Retailing,False,,,,621111,Sales Assistant (General)
+EMP0423,Forklift Driver,Warehouse,VIC,Linfox,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0424,MC Driver,Transport,QLD,Toll Freight,2911,Road Freight Transport,False,,,,733111,Truck Driver (General)
+EMP0425,Boilermaker/Welder,Manufacturing,WA,Rio Tinto,0800,Mining Support,False,,,,322311,Metal Fabricator
+EMP0426,Senior Software Engineer,Engineering,NSW,Deloitte Digital,6921,Computer System Design,False,,,,261312,Developer Programmer
+EMP0427,GP,Medical,NSW,Monash Health,8401,Hospitals,False,,,,253111,General Practitioner
+EMP0428,Senior Accountant,Finance,VIC,NAB,6200,Finance,False,,,,221111,Accountant (General)
+EMP0429,Cashier,Front End,NSW,IGA Marketplace,1111,Supermarkets,False,,,,611311,Checkout Operator
+EMP0430,PCA,Aged Care,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,Regis Aged Care,8601,Aged Care Residential,423111,Aged or Disabled Carer
+EMP0431,Account Manager,Sales,VIC,Cognizant Australia,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0432,Accounts Payable Clerk,Finance,NSW,IGA Marketplace,1111,Supermarkets,False,,,,551111,Accounts Clerk
+EMP0433,Kitchen Hand,Kitchen,NSW,Merivale,9111,Cafes and Restaurants,False,,,,851111,Fast Food Cook
+EMP0434,Tax Accountant,Tax,VIC,KPMG Australia,6932,Auditing Services,False,,,,221113,Taxation Accountant
+EMP0435,Enrolled Nurse,Nursing,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,Estia Health,8601,Aged Care Residential,411411,Enrolled Nurse
+EMP0436,Construction Labourer,Site,SA,Multiplex,3011,Building Construction,False,,,,821711,Construction Rigger
+EMP0437,Plumber,Trades,NSW,Lendlease,3011,Building Construction,False,,,,334111,Plumber (General)
+EMP0438,HC Driver,Logistics,QLD,Manpower,7212,Labour Supply Services,True,Linfox Transport,2911,Road Freight Transport,733111,Truck Driver (General)
+EMP0439,General Labourer,Construction,VIC,Randstad,7212,Labour Supply Services,True,CIMIC Group,3011,Building Construction,899999,Labourers nec
+EMP0440,Nurse (Registered),Ward 3,NSW,Austin Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0441,Commercial Cleaner,Cleaning,NSW,Adecco,7212,Labour Supply Services,True,Victorian Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0442,Training Manager,L&D,WA,University of Queensland,8010,Education,False,,,,223311,Training and Development Professional
+EMP0443,RN,Nursing,SA,Monash Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0444,Sysadmin,IT,VIC,TCS Australia,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0445,Plumber,Trades,NSW,Labour Solutions Australia,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,334111,Plumber (General)
+EMP0446,BA,Technology,QLD,Deloitte Digital,6921,Computer System Design,False,,,,261111,ICT Business Analyst
+EMP0447,Retail Assistant,Retail,NSW,IGA Marketplace,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0448,PCA,Aged Care,NSW,Manpower,7212,Labour Supply Services,True,Benetas,8601,Aged Care Residential,423111,Aged or Disabled Carer
+EMP0449,Marketing Manager,Marketing,VIC,Accenture,6921,Computer System Design,False,,,,131112,Sales and Marketing Manager
+EMP0450,Office Manager,Operations,VIC,Deloitte Digital,6921,Computer System Design,False,,,,512111,Office Manager
+EMP0451,Account Manager,Sales,QLD,Cognizant Australia,6921,Computer System Design,False,,,,225499,Sales Representatives nec
+EMP0452,Shop Assistant,Retail,NSW,Coles,1111,Supermarkets,False,,,,621111,Sales Assistant (General)
+EMP0453,Sparky,Trades,NSW,Manpower,7212,Labour Supply Services,True,Lendlease,3011,Building Construction,341111,Electrician (General)
+EMP0454,Brickie,Construction,WA,John Holland,3011,Building Construction,False,,,,331112,Bricklayer
+EMP0455,Admin Officer,Admin,QLD,Labour Solutions Australia,7212,Labour Supply Services,True,Queensland Government,7000,Public Administration,531111,General Clerk
+EMP0456,Electrical Tradesperson,Facilities,QLD,Multiplex,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0457,Forky,Warehouse,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,Woolworths,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0458,Commercial Cleaner,Cleaning,TAS,Manpower,7212,Labour Supply Services,True,Queensland Government,7000,Public Administration,811211,Commercial Cleaner
+EMP0459,EA,Executive,VIC,Randstad,7212,Labour Supply Services,True,Cognizant Australia,6921,Computer System Design,521111,Personal Assistant
+EMP0460,Security Guard,Security,SA,Wilson Security,7712,Investigation and Security,False,,,,442217,Security Officer
+EMP0461,Electrical Tradesperson,Facilities,VIC,Lendlease,3011,Building Construction,False,,,,341111,Electrician (General)
+EMP0462,FLT Driver,Logistics,NSW,Linfox,5310,Warehousing,False,,,,721999,Mobile Plant Operators nec
+EMP0463,RN,Nursing,VIC,Monash Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0464,Project Manager,PMO,VIC,Randstad,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,511112,Program or Project Administrator
+EMP0465,Sysadmin,IT,SA,Accenture,6921,Computer System Design,False,,,,263113,Network Administrator
+EMP0466,General Labourer,Construction,NSW,Adecco,7212,Labour Supply Services,True,John Holland,3011,Building Construction,899999,Labourers nec
+EMP0467,Payroll Officer,People & Culture,ACT,ANZ Bank,6200,Finance,False,,,,551211,Bookkeeper
+EMP0468,General Labourer,Construction,NSW,Manpower,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,899999,Labourers nec
+EMP0469,Creditors Clerk,Finance,VIC,Commonwealth Bank,6200,Finance,False,,,,551111,Accounts Clerk
+EMP0470,Payroll Officer,People & Culture,QLD,Westpac,6200,Finance,False,,,,551211,Bookkeeper
+EMP0471,Civil Eng,Infrastructure,NT,CIMIC Group,3011,Building Construction,False,,,,233211,Civil Engineer
+EMP0472,Carpenter,Construction,QLD,Hays Specialist Recruitment,7212,Labour Supply Services,True,Multiplex,3011,Building Construction,331111,Carpenter
+EMP0473,Diesel Mechanic,Fleet,WA,StarTrack,2911,Road Freight Transport,False,,,,321212,Diesel Motor Mechanic
+EMP0474,Boilermaker,Heavy Industry,NSW,Incitec Pivot,2410,Manufacturing,False,,,,322111,Blacksmith
+EMP0475,Registered Nurse - ICU,ICU,WA,Monash Health,8401,Hospitals,False,,,,254411,Nurse Practitioner
+EMP0476,Cleaner,Facilities,NSW,Adecco,7212,Labour Supply Services,True,Austin Health,8401,Hospitals,811211,Commercial Cleaner
+EMP0477,Digital Marketing Specialist,Digital,NSW,Accenture,6921,Computer System Design,False,,,,225113,Marketing Specialist
+EMP0478,Physiotherapist,Allied Health,VIC,St Vincent's Hospital,8401,Hospitals,False,,,,252511,Physiotherapist
+EMP0479,Boilermaker,Heavy Industry,QLD,Boral Industries,2410,Manufacturing,False,,,,322111,Blacksmith
+EMP0480,Product Manager,Product,VIC,TCS Australia,6921,Computer System Design,False,,,,225999,"Sales, Marketing and PR Professionals nec"
+EMP0481,Admin Officer,Admin,WA,Adecco,7212,Labour Supply Services,True,NSW Government,7000,Public Administration,531111,General Clerk
+EMP0482,Admin/Reception,Office,QLD,John Holland,3011,Building Construction,False,,,,542111,Receptionist (General)
+EMP0483,Waiter,Restaurant,NSW,Collins Hospitality,9111,Cafes and Restaurants,False,,,,431511,Waiter
+EMP0484,RN,Nursing,NSW,Randstad,7212,Labour Supply Services,True,Austin Health,8401,Hospitals,254411,Nurse Practitioner
+EMP0485,Enrolled Nurse,Nursing,NSW,Royal Melbourne Hospital,8401,Hospitals,False,,,,411411,Enrolled Nurse
+EMP0486,Recruiter,Talent,NT,Adecco,7212,Labour Supply Services,False,,,,223112,Recruitment Consultant
+EMP0487,Crane Operator,Site,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,BHP,0800,Mining Support,721211,"Crane, Hoist or Lift Operator"
+EMP0488,EA,CEO Office,QLD,TCS Australia,6921,Computer System Design,False,,,,521111,Personal Assistant
+EMP0489,Chef,Kitchen,NSW,Randstad,7212,Labour Supply Services,True,Collins Hospitality,9111,Cafes and Restaurants,351311,Chef
+EMP0490,Enrolled Nurse,Nursing,VIC,St Vincent's Hospital,8401,Hospitals,False,,,,411411,Enrolled Nurse
+EMP0491,Forklift Driver,Warehouse,NSW,Adecco,7212,Labour Supply Services,True,Toll Group,5310,Warehousing,721999,Mobile Plant Operators nec
+EMP0492,Snr .NET Dev,Technology,VIC,Hays Specialist Recruitment,7212,Labour Supply Services,True,NAB,6200,Finance,261312,Developer Programmer
+EMP0493,Warehouse Worker,Warehouse,VIC,DHL Supply Chain,5310,Warehousing,False,,,,741111,Storeperson
+EMP0494,BA,Technology,WA,Randstad,7212,Labour Supply Services,True,Westpac,6200,Finance,261111,ICT Business Analyst
+EMP0495,IT Support,IT,NSW,Cognizant Australia,6921,Computer System Design,False,,,,313113,Web Administrator
+EMP0496,Executive Assistant,Executive,VIC,NAB,6200,Finance,False,,,,521111,Personal Assistant
+EMP0497,Forky,Warehouse,NSW,Hays Specialist Recruitment,7212,Labour Supply Services,True,Coles,1111,Supermarkets,721999,Mobile Plant Operators nec
+EMP0498,Digital Marketing Specialist,Digital,VIC,Deloitte Digital,6921,Computer System Design,False,,,,225113,Marketing Specialist
+EMP0499,Senior Accountant,Finance,VIC,ANZ Bank,6200,Finance,False,,,,221111,Accountant (General)
+EMP0500,BA,Technology,NSW,TCS Australia,6921,Computer System Design,False,,,,261111,ICT Business Analyst

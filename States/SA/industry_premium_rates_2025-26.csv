@@ -1,0 +1,529 @@
+section,saic_number,industry_description,premium_rate_per_100,premium_rate
+"Agriculture, forestry and fishing",011101,Nursery Production,3.247%,3.247
+"Agriculture, forestry and fishing",011301,Turf Growing,3.452%,3.452
+"Agriculture, forestry and fishing",011401,Floriculture Production,3.703%,3.703
+"Agriculture, forestry and fishing",012101,Mushroom Growing,3.761%,3.761
+"Agriculture, forestry and fishing",012201,Vegetable Growing,3.758%,3.758
+"Agriculture, forestry and fishing",013101,Grape Growing,2.761%,2.761
+"Agriculture, forestry and fishing",013406,"Apple, Pear, Stone Fruit, Berry Fruit, Kiwifruit and Citrus Growing",3.513%,3.513
+"Agriculture, forestry and fishing",013701,Olive growing,3.998%,3.998
+"Agriculture, forestry and fishing",013901,Other Fruit and Tree Nut Growing,3.440%,3.44
+"Agriculture, forestry and fishing",014406,Sheep-Beef Cattle Farming,5.410%,5.41
+"Agriculture, forestry and fishing",014501,Grain-Sheep or Grain-Beef Cattle Farming,3.145%,3.145
+"Agriculture, forestry and fishing",014901,Other Grain Growing,2.971%,2.971
+"Agriculture, forestry and fishing",015901,Other Crop Growing n.e.c.,4.649%,4.649
+"Agriculture, forestry and fishing",016001,Dairy Cattle Farming,6.783%,6.783
+"Agriculture, forestry and fishing",017101,Poultry Farming (Meat),5.175%,5.175
+"Agriculture, forestry and fishing",017201,Poultry Farming (Eggs),5.391%,5.391
+"Agriculture, forestry and fishing",018001,Deer Farming,5.174%,5.174
+"Agriculture, forestry and fishing",019101,Horse Farming,5.388%,5.388
+"Agriculture, forestry and fishing",019201,Pig Farming,6.841%,6.841
+"Agriculture, forestry and fishing",019306,Beekeeping,4.598%,4.598
+"Agriculture, forestry and fishing",019901,Other Livestock Farming n.e.c.,4.797%,4.797
+"Agriculture, forestry and fishing",020101,Offshore Longline and Rack Aquaculture,3.016%,3.016
+"Agriculture, forestry and fishing",020201,Offshore Caged Aquaculture,3.073%,3.073
+"Agriculture, forestry and fishing",020301,Onshore Aquaculture,2.925%,2.925
+"Agriculture, forestry and fishing",030101,Forestry,2.908%,2.908
+"Agriculture, forestry and fishing",030201,Logging,5.345%,5.345
+"Agriculture, forestry and fishing",041101,Rock Lobster and Crab Potting,3.208%,3.208
+"Agriculture, forestry and fishing",041201,Prawn Fishing,2.749%,2.749
+"Agriculture, forestry and fishing",041301,Line Fishing,4.507%,4.507
+"Agriculture, forestry and fishing",041901,Other Fishing,5.204%,5.204
+"Agriculture, forestry and fishing",042001,Hunting and Trapping,5.815%,5.815
+"Agriculture, forestry and fishing",051001,Forestry Support Services,2.976%,2.976
+"Agriculture, forestry and fishing",052201,Shearing Services,7.070%,7.07
+"Agriculture, forestry and fishing",052901,Other Agriculture and Fishing Support Services,3.140%,3.14
+Mining,060001,Coal Mining,3.108%,3.108
+Mining,070001,Oil and Gas Extraction,1.971%,1.971
+Mining,080101,Iron Ore Mining,2.790%,2.79
+Mining,080201,Bauxite Mining,3.594%,3.594
+Mining,080301,Copper Ore Mining,1.821%,1.821
+Mining,080401,Gold Ore Mining,3.354%,3.354
+Mining,080501,Mineral Sand Mining,2.675%,2.675
+Mining,080601,Nickel Ore Mining,3.594%,3.594
+Mining,080701,Silver-Lead-Zinc Ore Mining,3.221%,3.221
+Mining,080901,Other Metal Ore Mining,4.106%,4.106
+Mining,091101,Gravel and Sand Quarrying,3.561%,3.561
+Mining,091901,Other Construction Material Mining,4.257%,4.257
+Mining,099001,Other Non-Metallic Mineral Mining and Quarrying,2.594%,2.594
+Mining,101101,Petroleum Exploration,4.444%,4.444
+Mining,101201,Mineral Exploration,1.166%,1.166
+Mining,109001,Other Mining Support Services,2.206%,2.206
+Mining,109002,Drilling and Boring Support Services,2.951%,2.951
+Manufacturing,111106,Meat Processing,7.429%,7.429
+Manufacturing,111107,Livestock Processing,5.413%,5.413
+Manufacturing,111201,Poultry Processing,5.259%,5.259
+Manufacturing,111301,Cured Meat and Smallgoods Manufacturing,8.286%,8.286
+Manufacturing,112001,Seafood Processing,3.531%,3.531
+Manufacturing,113101,Milk and Cream Processing,3.584%,3.584
+Manufacturing,113201,Ice Cream Manufacturing,1.495%,1.495
+Manufacturing,113301,Cheese and Other Dairy Product Manufacturing,4.352%,4.352
+Manufacturing,114001,Fruit and Vegetable Processing,4.204%,4.204
+Manufacturing,115001,Oil and Fat Manufacturing,3.652%,3.652
+Manufacturing,116101,Grain Mill Product Manufacturing,1.744%,1.744
+Manufacturing,116201,"Cereal, Pasta and Baking Mix Manufacturing",3.671%,3.671
+Manufacturing,117101,Bread Manufacturing (Factory based),4.427%,4.427
+Manufacturing,117201,Cake and Pastry Manufacturing (Factory based),3.253%,3.253
+Manufacturing,117301,Biscuit Manufacturing (Factory based),5.606%,5.606
+Manufacturing,117401,Bakery Product Manufacturing (Non-factory based),1.511%,1.511
+Manufacturing,118101,Sugar Manufacturing,4.113%,4.113
+Manufacturing,118201,Confectionery Manufacturing,4.194%,4.194
+Manufacturing,119101,"Potato, Corn and Other Crisp Manufacturing",4.668%,4.668
+Manufacturing,119201,Prepared Animal and Bird Feed Manufacturing,5.022%,5.022
+Manufacturing,119901,Other Food Product Manufacturing n.e.c.,3.868%,3.868
+Manufacturing,121101,"Soft Drink, Cordial and Syrup Manufacturing",2.265%,2.265
+Manufacturing,121201,Beer Manufacturing,1.541%,1.541
+Manufacturing,121301,Spirit Manufacturing,1.767%,1.767
+Manufacturing,121401,Wine and Other Alcoholic Beverage Manufacturing,1.765%,1.765
+Manufacturing,122001,Cigarette and Tobacco Product Manufacturing,4.668%,4.668
+Manufacturing,131101,Wool Scouring,3.392%,3.392
+Manufacturing,131201,Natural Textile Manufacturing,3.005%,3.005
+Manufacturing,131301,Synthetic Textile Manufacturing,2.680%,2.68
+Manufacturing,132001,"Leather Tanning, Fur Dressing and Leather Product Manufacturing",2.813%,2.813
+Manufacturing,133101,Textile Floor Covering Manufacturing,2.209%,2.209
+Manufacturing,133201,"Rope, Cordage and Twine Manufacturing",2.507%,2.507
+Manufacturing,133301,Cut and Sewn Textile Product Manufacturing,3.364%,3.364
+Manufacturing,133401,Textile Finishing and Other Textile Product Manufacturing,2.379%,2.379
+Manufacturing,134001,Knitted Product Manufacturing,2.468%,2.468
+Manufacturing,135101,Clothing Manufacturing,2.234%,2.234
+Manufacturing,135201,Footwear Manufacturing,3.312%,3.312
+Manufacturing,141101,Log Sawmilling,5.669%,5.669
+Manufacturing,141201,Wood Chipping,3.892%,3.892
+Manufacturing,141301,Timber Resawing and Dressing,7.140%,7.14
+Manufacturing,149101,Prefabricated Wooden Building Manufacturing,3.931%,3.931
+Manufacturing,149201,Wooden Structural Fitting and Component Manufacturing,3.573%,3.573
+Manufacturing,149301,Veneer and Plywood Manufacturing,5.578%,5.578
+Manufacturing,149401,Reconstituted Wood Product Manufacturing,3.013%,3.013
+Manufacturing,149901,Other Wood Product Manufacturing n.e.c.,3.756%,3.756
+Manufacturing,149902,Wooden Containers Manufacturing,5.592%,5.592
+Manufacturing,151001,"Pulp, Paper and Paperboard Manufacturing",3.632%,3.632
+Manufacturing,152101,Corrugated Paperboard and Paperboard Container Manufacturing,3.774%,3.774
+Manufacturing,152201,Paper Bag Manufacturing,5.958%,5.958
+Manufacturing,152301,Paper Stationery Manufacturing,2.894%,2.894
+Manufacturing,152401,Sanitary Paper Product Manufacturing,4.203%,4.203
+Manufacturing,152901,Other Converted Paper Product Manufacturing,4.336%,4.336
+Manufacturing,161106,Printing,1.339%,1.339
+Manufacturing,161206,Printing Support Services,1.054%,1.054
+Manufacturing,162007,Reproduction of Recorded Media,0.400%,0.4
+Manufacturing,170101,Petroleum Refining and Petroleum Fuel Manufacturing,1.427%,1.427
+Manufacturing,170901,Other Petroleum and Coal Product Manufacturing,2.126%,2.126
+Manufacturing,181101,Industrial Gas Manufacturing,1.652%,1.652
+Manufacturing,181201,Basic Organic Chemical Manufacturing,2.627%,2.627
+Manufacturing,181301,Basic Inorganic Chemical Manufacturing,2.544%,2.544
+Manufacturing,182101,Synthetic Resin and Synthetic Rubber Manufacturing,5.789%,5.789
+Manufacturing,182901,Other Basic Polymer Manufacturing,4.413%,4.413
+Manufacturing,183101,Fertiliser Manufacturing,3.621%,3.621
+Manufacturing,183201,Pesticide Manufacturing,2.689%,2.689
+Manufacturing,184101,Human Pharmaceutical and Medicinal Product Manufacturing,2.015%,2.015
+Manufacturing,184201,Veterinary Pharmaceutical and Medicinal Product Manufacturing,2.711%,2.711
+Manufacturing,185101,Cleaning Compound Manufacturing,2.500%,2.5
+Manufacturing,185201,Cosmetic and Toiletry Preparation Manufacturing,1.575%,1.575
+Manufacturing,189101,Photographic Chemical Product Manufacturing,2.361%,2.361
+Manufacturing,189201,Explosive Manufacturing,2.893%,2.893
+Manufacturing,189901,Other Basic Chemical Product Manufacturing n.e.c.,2.281%,2.281
+Manufacturing,191101,Polymer Film and Sheet Packaging Material Manufacturing,3.222%,3.222
+Manufacturing,191201,Rigid and Semi-Rigid Polymer Product Manufacturing,4.616%,4.616
+Manufacturing,191301,Polymer Foam Product Manufacturing,4.296%,4.296
+Manufacturing,191401,Tyre Manufacturing,3.883%,3.883
+Manufacturing,191501,Adhesive Manufacturing,2.354%,2.354
+Manufacturing,191601,Paint and Coatings Manufacturing,2.677%,2.677
+Manufacturing,191602,Inks and Toners Manufacturing,0.727%,0.727
+Manufacturing,191901,Other Polymer Product Manufacturing,5.074%,5.074
+Manufacturing,192001,Natural Rubber Product Manufacturing,3.600%,3.6
+Manufacturing,201001,Glass and Glass Product Manufacturing,3.108%,3.108
+Manufacturing,202101,Clay Brick Manufacturing,3.534%,3.534
+Manufacturing,202901,Other Ceramic Product Manufacturing,2.598%,2.598
+Manufacturing,203101,Cement and Lime Manufacturing,1.106%,1.106
+Manufacturing,203201,Plaster Product Manufacturing,5.383%,5.383
+Manufacturing,203301,Ready-Mixed Concrete Manufacturing,5.266%,5.266
+Manufacturing,203401,Concrete Product Manufacturing,7.354%,7.354
+Manufacturing,209001,Other Non-Metallic Mineral Product Manufacturing,5.631%,5.631
+Manufacturing,211001,Iron Smelting and Steel Manufacturing,3.760%,3.76
+Manufacturing,212106,Iron and Steel Casting,6.725%,6.725
+Manufacturing,212201,Steel Pipe and Tube Manufacturing,3.040%,3.04
+Manufacturing,213106,Alumina Production,2.743%,2.743
+Manufacturing,213201,Aluminium Smelting,4.001%,4.001
+Manufacturing,213301,"Copper, Silver, Lead and Zinc Smelting and Refining",4.505%,4.505
+Manufacturing,213901,Other Basic Non-Ferrous Metal Manufacturing,5.930%,5.93
+Manufacturing,214101,Non-Ferrous Metal Casting,2.919%,2.919
+Manufacturing,214201,"Aluminium Rolling, Drawing, Extruding",3.057%,3.057
+Manufacturing,214901,Other Basic Non-Ferrous Metal Product Manufacturing,2.765%,2.765
+Manufacturing,221001,Iron and Steel Forging,5.668%,5.668
+Manufacturing,222101,Structural Steel Fabricating,4.384%,4.384
+Manufacturing,222201,Prefabricated Metal Building Manufacturing,4.192%,4.192
+Manufacturing,222301,Architectural Aluminium Product Manufacturing,4.160%,4.16
+Manufacturing,222401,Metal Roof and Guttering Manufacturing (except Aluminium),3.160%,3.16
+Manufacturing,222901,Other Structural Metal Product Manufacturing,4.651%,4.651
+Manufacturing,223101,"Boiler, Tank and Other Heavy Gauge Metal Container Manufacturing",6.831%,6.831
+Manufacturing,223901,Other Metal Container Manufacturing,2.768%,2.768
+Manufacturing,224001,Sheet Metal Product Manufacturing (except Metal Structural and Container Products),3.730%,3.73
+Manufacturing,229101,Spring and Wire Product Manufacturing,4.251%,4.251
+Manufacturing,229201,"Nut, Bolt, Screw and Rivet Manufacturing",2.776%,2.776
+Manufacturing,229301,Metal Coating and Finishing,4.520%,4.52
+Manufacturing,229901,Other Fabricated Metal Product Manufacturing n.e.c.,3.163%,3.163
+Manufacturing,229902,Cutlery and Hand Tool Manufacturing,10.312%,10.312
+Manufacturing,231101,Motor Vehicle Manufacturing,2.854%,2.854
+Manufacturing,231201,Motor Vehicle Body and Trailer Manufacturing,4.969%,4.969
+Manufacturing,231301,Automotive Electrical Component Manufacturing,2.663%,2.663
+Manufacturing,231901,Other Motor Vehicle Parts Manufacturing,3.405%,3.405
+Manufacturing,239101,Shipbuilding and Repair Services,5.441%,5.441
+Manufacturing,239102,Submarine Building and Repair Services,1.654%,1.654
+Manufacturing,239201,Boatbuilding and Repair Services,4.162%,4.162
+Manufacturing,239301,Railway Rolling Stock Manufacturing and Repair Services,2.706%,2.706
+Manufacturing,239401,Aircraft Manufacturing and Repair Services,0.660%,0.66
+Manufacturing,239901,Other Transport Equipment Manufacturing n.e.c.,2.620%,2.62
+Manufacturing,241101,"Photographic , Optical and Ophthalmic Equipment Manufacturing",0.490%,0.49
+Manufacturing,241201,Medical and Surgical Equipment Manufacturing,1.763%,1.763
+Manufacturing,241901,Other Professional and Scientific Equipment Manufacturing,0.547%,0.547
+Manufacturing,242101,Computer and Electronic Office Equipment Manufacturing,0.511%,0.511
+Manufacturing,242201,Communication Equipment Manufacturing,0.543%,0.543
+Manufacturing,242901,Other Electronic Equipment Manufacturing,0.444%,0.444
+Manufacturing,243101,Electric Cable and Wire Manufacturing,2.737%,2.737
+Manufacturing,243201,Electric Lighting Equipment Manufacturing,2.165%,2.165
+Manufacturing,243901,Other Electrical Equipment Manufacturing,2.466%,2.466
+Manufacturing,244101,Whiteware Appliance Manufacturing,2.690%,2.69
+Manufacturing,244901,Other Domestic Appliance Manufacturing,2.755%,2.755
+Manufacturing,245101,Pump and Compressor Manufacturing,3.518%,3.518
+Manufacturing,245201,"Fixed Space Heating, Cooling and Ventilation Equipment Manufacturing",1.747%,1.747
+Manufacturing,246101,Agricultural Machinery and Equipment Manufacturing,3.401%,3.401
+Manufacturing,246201,Mining and Construction Machinery Manufacturing,2.717%,2.717
+Manufacturing,246301,Machine Tool and Parts Manufacturing,2.646%,2.646
+Manufacturing,246901,Other Specialised Machinery and Equipment Manufacturing,3.038%,3.038
+Manufacturing,249101,Lifting and Material Handling Equipment Manufacturing,5.051%,5.051
+Manufacturing,249901,Other Machinery and Equipment Manufacturing n.e.c.,3.262%,3.262
+Manufacturing,251101,Wooden Furniture and Upholstered Seat Manufacturing,3.362%,3.362
+Manufacturing,251201,Metal Furniture Manufacturing,4.526%,4.526
+Manufacturing,251301,Mattress Manufacturing,4.523%,4.523
+Manufacturing,251901,Other Furniture Manufacturing,3.355%,3.355
+Manufacturing,259101,Jewellery and Silverware Manufacturing,1.337%,1.337
+Manufacturing,259201,"Toy, Sporting and Recreational Product Manufacturing",3.712%,3.712
+Manufacturing,259901,Other Manufacturing n.e.c.,2.193%,2.193
+"Electricity, Gas, Water and Waste Services",261101,Fossil Fuel Electricity Generation,0.690%,0.69
+"Electricity, Gas, Water and Waste Services",261901,Other Electricity Generation,0.658%,0.658
+"Electricity, Gas, Water and Waste Services",262001,Electricity Transmission and Distribution,0.605%,0.605
+"Electricity, Gas, Water and Waste Services",264001,On Selling Electricity and Electricity Market Operation,0.564%,0.564
+"Electricity, Gas, Water and Waste Services",270001,Gas Supply,0.912%,0.912
+"Electricity, Gas, Water and Waste Services",281101,Water Supply,0.858%,0.858
+"Electricity, Gas, Water and Waste Services",281201,Sewerage and Drainage Services,2.208%,2.208
+"Electricity, Gas, Water and Waste Services",291101,Solid Waste Collection Services,5.439%,5.439
+"Electricity, Gas, Water and Waste Services",291901,Other Waste Collection Services,5.921%,5.921
+"Electricity, Gas, Water and Waste Services",292101,Waste Treatment and Disposal Services,5.726%,5.726
+"Electricity, Gas, Water and Waste Services",292201,Waste Remediation and Materials Recovery Services,6.490%,6.49
+Construction,301101,House Construction,2.520%,2.52
+Construction,301901,Other Residential Building Construction,3.517%,3.517
+Construction,302001,Non-Residential Building Construction,2.561%,2.561
+Construction,310101,Heavy and Civil Engineering Construction,2.996%,2.996
+Construction,321101,Land Development and Subdivision,1.497%,1.497
+Construction,321201,Site Preparation Services,3.915%,3.915
+Construction,322101,Concreting Services,6.061%,6.061
+Construction,322201,Bricklaying Services,6.134%,6.134
+Construction,322301,Roofing Services,7.535%,7.535
+Construction,322401,Structural Steel Erection Services,5.803%,5.803
+Construction,323106,Plumbing Services,3.085%,3.085
+Construction,323206,Electrical Services,2.039%,2.039
+Construction,323306,Air Conditioning and Heating Services,3.633%,3.633
+Construction,323406,Fire and Security Alarm Installation Services,2.179%,2.179
+Construction,323901,Other Building Installation Services,4.094%,4.094
+Construction,324106,Plastering and Ceiling Services,5.944%,5.944
+Construction,324206,Carpentry Services,5.149%,5.149
+Construction,324306,Tiling and Carpeting Services,4.369%,4.369
+Construction,324406,Painting and Decorating Services,4.588%,4.588
+Construction,324506,Glazing Services,5.737%,5.737
+Construction,329101,Landscape Construction Services,4.190%,4.19
+Construction,329201,Hire of Construction Machinery with Operator,3.757%,3.757
+Construction,329901,Other Construction Services n.e.c.,5.328%,5.328
+Wholesale trade,331101,Wool Wholesaling,2.827%,2.827
+Wholesale trade,331201,Cereal Grain Wholesaling,3.526%,3.526
+Wholesale trade,331901,Other Agricultural Produce Wholesaling,2.139%,2.139
+Wholesale trade,331902,Other Agricultural Supply Wholesaling,0.621%,0.621
+Wholesale trade,332101,Petroleum Product Wholesaling,1.371%,1.371
+Wholesale trade,332201,Metal Wholesaling,4.031%,4.031
+Wholesale trade,332202,Mineral Wholesaling,1.934%,1.934
+Wholesale trade,332301,Industrial and Agricultural Chemical Product Wholesaling,1.478%,1.478
+Wholesale trade,333101,Timber Wholesaling,3.512%,3.512
+Wholesale trade,333201,Plumbing Goods Wholesaling,2.022%,2.022
+Wholesale trade,333901,Builders Hardware Goods Wholesaling,1.972%,1.972
+Wholesale trade,333902,Household Hardware Goods Wholesaling,1.127%,1.127
+Wholesale trade,341101,Agricultural and Construction Machinery Wholesaling,1.617%,1.617
+Wholesale trade,341901,Other Specialised Industrial Machinery and Equipment Wholesaling,1.675%,1.675
+Wholesale trade,349101,Professional and Scientific Goods Wholesaling,0.634%,0.634
+Wholesale trade,349201,Computer and Computer Peripheral Wholesaling,0.424%,0.424
+Wholesale trade,349301,Telecommunication Goods Wholesaling,0.712%,0.712
+Wholesale trade,349401,Other Electrical and Electronic Goods Wholesaling,0.781%,0.781
+Wholesale trade,349402,Photographic Equipment Wholesaling,0.400%,0.4
+Wholesale trade,349901,Other Machinery and Equipment Wholesaling n.e.c.,1.344%,1.344
+Wholesale trade,350101,Car Wholesaling,1.381%,1.381
+Wholesale trade,350201,Commercial Vehicle Wholesaling,2.142%,2.142
+Wholesale trade,350301,Trailer and Other Motor Vehicle Wholesaling,2.095%,2.095
+Wholesale trade,350401,Motor Vehicle New Parts Wholesaling,2.325%,2.325
+Wholesale trade,350501,Motor Vehicle Dismantling and Used Parts Wholesaling,2.771%,2.771
+Wholesale trade,360101,General Line Grocery Wholesaling,2.938%,2.938
+Wholesale trade,360201,Meat Wholesaling,5.516%,5.516
+Wholesale trade,360202,Poultry and Smallgoods Wholesaling,2.240%,2.24
+Wholesale trade,360301,Dairy Produce Wholesaling,2.803%,2.803
+Wholesale trade,360302,Milk Vending,4.665%,4.665
+Wholesale trade,360401,Fish and Seafood Wholesaling,3.007%,3.007
+Wholesale trade,360501,Fruit and Vegetable Wholesaling,4.311%,4.311
+Wholesale trade,360601,Liquor and Tobacco Product Wholesaling,1.379%,1.379
+Wholesale trade,360901,Other Grocery Wholesaling,3.247%,3.247
+Wholesale trade,360902,Confectionery and Soft Drink Wholesaling,2.208%,2.208
+Wholesale trade,371101,Textile Product Wholesaling,0.872%,0.872
+Wholesale trade,371201,Clothing and Footwear Wholesaling,0.450%,0.45
+Wholesale trade,372001,Pharmaceutical and Toiletry Goods Wholesaling,0.865%,0.865
+Wholesale trade,373101,Furniture and Floor Covering Wholesaling,1.343%,1.343
+Wholesale trade,373201,Jewellery and Watch Wholesaling,0.852%,0.852
+Wholesale trade,373301,Kitchen and Dining ware Wholesaling,1.137%,1.137
+Wholesale trade,373401,Toy and Sporting Goods Wholesaling,1.086%,1.086
+Wholesale trade,373501,Book and Magazine Wholesaling,1.289%,1.289
+Wholesale trade,373601,Paper Product Wholesaling,1.460%,1.46
+Wholesale trade,373901,Other Goods Wholesaling n.e.c.,1.563%,1.563
+Wholesale trade,380001,Commission-Based Wholesaling,1.504%,1.504
+Wholesale trade,380002,Wholesaling goods not physically handling any stock,0.742%,0.742
+Retail trade,391101,Car Retailing,1.591%,1.591
+Retail trade,391201,Motor Cycle Retailing,1.586%,1.586
+Retail trade,391301,Trailer and Other Motor Vehicle Retailing,1.908%,1.908
+Retail trade,392101,Motor Vehicle Parts Retailing,1.439%,1.439
+Retail trade,392201,Tyre Retailing,3.673%,3.673
+Retail trade,400001,Fuel Retailing,2.597%,2.597
+Retail trade,411001,Supermarket and Grocery Stores,1.910%,1.91
+Retail trade,412102,Fresh Fish Retailing,1.370%,1.37
+Retail trade,412106,Fresh Meat and Poultry Retailing,3.230%,3.23
+Retail trade,412206,Fruit and Vegetable Retailing,1.701%,1.701
+Retail trade,412301,Liquor Retailing,1.355%,1.355
+Retail trade,412901,Other Specialised Food Retailing,1.532%,1.532
+Retail trade,421101,Furniture Retailing,2.970%,2.97
+Retail trade,421201,Floor Coverings Retailing,2.070%,2.07
+Retail trade,421301,Housewares Retailing,1.695%,1.695
+Retail trade,421401,Manchester and Other Textile Goods Retailing,2.974%,2.974
+Retail trade,422101,"Electrical , Electronic and Gas Appliance Retailing",1.244%,1.244
+Retail trade,422102,Photographic Equipment Retailing,0.496%,0.496
+Retail trade,422201,Computer and Computer Peripheral Retailing,1.199%,1.199
+Retail trade,422901,Other Electrical and Electronic Goods Retailing,1.549%,1.549
+Retail trade,423106,Hardware and Building Supplies Retailing,2.001%,2.001
+Retail trade,423206,Garden Supplies Retailing,2.560%,2.56
+Retail trade,424106,Sport and Camping Equipment Retailing,0.791%,0.791
+Retail trade,424206,Entertainment Media and Musical Instrument Retailing,0.447%,0.447
+Retail trade,424306,Toy and Game Retailing,0.400%,0.4
+Retail trade,424406,Newspaper and Book Retailing,0.997%,0.997
+Retail trade,424506,Marine Equipment Retailing,1.473%,1.473
+Retail trade,425101,Clothing Retailing,1.435%,1.435
+Retail trade,425201,Footwear Retailing,0.940%,0.94
+Retail trade,425301,Watch and Jewellery Retailing,0.752%,0.752
+Retail trade,425901,Other Personal Accessory Retailing,1.321%,1.321
+Retail trade,426001,Department Stores,1.778%,1.778
+Retail trade,426002,General Variety Stores,2.442%,2.442
+Retail trade,427101,"Pharmaceutical, Cosmetic and Toiletry Goods Retailing",0.934%,0.934
+Retail trade,427201,Stationery Goods Retailing,0.914%,0.914
+Retail trade,427301,Antique and Used Goods Retailing,3.553%,3.553
+Retail trade,427302,Coin and stamp dealing,0.400%,0.4
+Retail trade,427401,Flower Retailing,2.586%,2.586
+Retail trade,427901,Other Store-Based Retailing n.e.c.,1.232%,1.232
+Retail trade,427902,Tobacco Products Retailing,1.968%,1.968
+Retail trade,431001,Non-Store Retailing,0.801%,0.801
+Retail trade,432001,Retail Commission-Based Buying and/or Selling,0.765%,0.765
+Accommodation and food services,440001,Accommodation,2.127%,2.127
+Accommodation and food services,451101,Cafes and Restaurants,1.797%,1.797
+Accommodation and food services,451201,Takeaway Food Services,1.160%,1.16
+Accommodation and food services,451301,Catering Services,3.058%,3.058
+Accommodation and food services,452001,"Pubs, Taverns and Bars",2.127%,2.127
+Accommodation and food services,453001,Clubs (Hospitality),2.549%,2.549
+"Transport, postal and warehousing",461001,Road Freight Transport,7.444%,7.444
+"Transport, postal and warehousing",461002,Towing Services,5.056%,5.056
+"Transport, postal and warehousing",462101,Interurban and Rural Bus Transport,3.809%,3.809
+"Transport, postal and warehousing",462201,Urban Bus Transport (Including Tramway),2.599%,2.599
+"Transport, postal and warehousing",462301,Taxi and Other Road Transport,3.495%,3.495
+"Transport, postal and warehousing",471006,Rail Freight Transport,1.656%,1.656
+"Transport, postal and warehousing",472001,Rail Passenger Transport,2.550%,2.55
+"Transport, postal and warehousing",481001,Water Freight Transport,3.623%,3.623
+"Transport, postal and warehousing",482001,Water Passenger Transport,2.872%,2.872
+"Transport, postal and warehousing",490001,Scheduled Air and Space Transport,1.574%,1.574
+"Transport, postal and warehousing",490002,Non-Scheduled Air and Space Transport,1.101%,1.101
+"Transport, postal and warehousing",501001,Scenic and Sightseeing Transport,2.885%,2.885
+"Transport, postal and warehousing",502101,Pipeline Transport,0.967%,0.967
+"Transport, postal and warehousing",502901,Other Transport n.e.c.,1.112%,1.112
+"Transport, postal and warehousing",510101,Postal Services,1.436%,1.436
+"Transport, postal and warehousing",510201,Courier Pick-up and Delivery Services,6.131%,6.131
+"Transport, postal and warehousing",521101,Stevedoring Services,4.796%,4.796
+"Transport, postal and warehousing",521201,Port and Water Transport Terminal Operations,3.408%,3.408
+"Transport, postal and warehousing",521901,Other Water Transport Support Services,1.729%,1.729
+"Transport, postal and warehousing",522001,Airport Operations and Other Air Transport Support Services,0.492%,0.492
+"Transport, postal and warehousing",529101,Customs Agency Services,0.909%,0.909
+"Transport, postal and warehousing",529201,Freight Forwarding Services,2.179%,2.179
+"Transport, postal and warehousing",529202,Freight Forwarding Services - not physically handling any stock,0.402%,0.402
+"Transport, postal and warehousing",529206,Freight Forwarding Services (Water),1.611%,1.611
+"Transport, postal and warehousing",529901,Other Transport Support Services n.e.c.,2.743%,2.743
+"Transport, postal and warehousing",529902,Radio Base Operation,1.775%,1.775
+"Transport, postal and warehousing",530101,Grain Storage Services,3.098%,3.098
+"Transport, postal and warehousing",530906,Other Warehousing and Storage Services,3.519%,3.519
+"Transport, postal and warehousing",530907,Cold Storage,6.976%,6.976
+"Information, media and telecommunications",541101,Newspaper Publishing,0.793%,0.793
+"Information, media and telecommunications",541201,Magazine and Other Periodical Publishing,0.743%,0.743
+"Information, media and telecommunications",541301,Book Publishing,0.794%,0.794
+"Information, media and telecommunications",541401,Directory and Mailing List Publishing,0.826%,0.826
+"Information, media and telecommunications",541901,"Other Publishing (except Software, Music and Internet)",0.763%,0.763
+"Information, media and telecommunications",542001,Software Publishing,0.400%,0.4
+"Information, media and telecommunications",551101,Motion Picture and Video Production,0.841%,0.841
+"Information, media and telecommunications",551201,Motion Picture and Video Distribution,0.610%,0.61
+"Information, media and telecommunications",551301,Motion Picture Exhibition,1.319%,1.319
+"Information, media and telecommunications",551401,Post-production Services and Other Motion Picture and Video Activities,0.675%,0.675
+"Information, media and telecommunications",552101,Music Publishing,0.795%,0.795
+"Information, media and telecommunications",552201,Music and Other Sound Recording Activities,0.400%,0.4
+"Information, media and telecommunications",561001,Radio Broadcasting,0.400%,0.4
+"Information, media and telecommunications",562101,Free-to-Air Television Broadcasting,0.447%,0.447
+"Information, media and telecommunications",562201,Cable and Other Subscription Broadcasting,0.446%,0.446
+"Information, media and telecommunications",570001,Internet Publishing and Broadcasting,0.864%,0.864
+"Information, media and telecommunications",580106,Wired Telecommunications Network Operation,0.664%,0.664
+"Information, media and telecommunications",580206,Other Telecommunications Network Operation,0.632%,0.632
+"Information, media and telecommunications",580901,Other Telecommunications Services,0.628%,0.628
+"Information, media and telecommunications",591001,Internet Service Providers and Web Search Portals,0.635%,0.635
+"Information, media and telecommunications",592101,Data Processing and Web Hosting Services,0.419%,0.419
+"Information, media and telecommunications",592201,Electronic Information Storage Services,0.958%,0.958
+"Information, media and telecommunications",601001,Libraries and Archives,0.400%,0.4
+"Information, media and telecommunications",602001,Other Information Services,0.400%,0.4
+Financial and insurance services,621001,Central Banking,0.440%,0.44
+Financial and insurance services,622101,Banking,0.444%,0.444
+Financial and insurance services,622201,Building Society Operation,0.400%,0.4
+Financial and insurance services,622301,Credit Union Operation,0.427%,0.427
+Financial and insurance services,622901,Other Depository Financial Intermediation,0.400%,0.4
+Financial and insurance services,623001,Non-Depository Financing,0.402%,0.402
+Financial and insurance services,624006,Financial Asset Investing,0.400%,0.4
+Financial and insurance services,631006,Life Insurance,0.400%,0.4
+Financial and insurance services,632101,Health Insurance,0.564%,0.564
+Financial and insurance services,632206,General Insurance,0.485%,0.485
+Financial and insurance services,633001,Superannuation Funds,0.408%,0.408
+Financial and insurance services,641101,Financial Asset Broking Services,0.400%,0.4
+Financial and insurance services,641901,Other Auxiliary Finance and Investment Services,0.400%,0.4
+Financial and insurance services,642001,Auxiliary Insurance Services,0.492%,0.492
+"Rental, hiring and real estate services",661101,Passenger Car Rental and Hiring,1.402%,1.402
+"Rental, hiring and real estate services",661901,Other Motor Vehicle and Transport Equipment Rental and Hiring,1.665%,1.665
+"Rental, hiring and real estate services",662001,Farm Animal and Bloodstock Leasing,3.074%,3.074
+"Rental, hiring and real estate services",663101,Heavy Machinery and Scaffolding Rental and Hiring,2.819%,2.819
+"Rental, hiring and real estate services",663201,Video and Other Electronic Media Rental and Hiring,0.875%,0.875
+"Rental, hiring and real estate services",663901,Other Goods and Equipment Rental and Hiring n.e.c.,3.545%,3.545
+"Rental, hiring and real estate services",663902,Party Hire,5.472%,5.472
+"Rental, hiring and real estate services",664001,Non-Financial Intangible Assets (Except Copyrights) Leasing,0.400%,0.4
+"Rental, hiring and real estate services",671101,Residential Property Operators,1.719%,1.719
+"Rental, hiring and real estate services",671201,Non-Residential Property Operators,1.298%,1.298
+"Rental, hiring and real estate services",672001,Real Estate Services,0.492%,0.492
+"Professional, scientific and technical services",691001,Scientific Research Services,0.400%,0.4
+"Professional, scientific and technical services",692101,Architectural Services,0.400%,0.4
+"Professional, scientific and technical services",692201,Surveying and Mapping Services,0.883%,0.883
+"Professional, scientific and technical services",692301,Engineering Design and Engineering Consulting Services,0.400%,0.4
+"Professional, scientific and technical services",692401,Other Specialised Design Services,0.402%,0.402
+"Professional, scientific and technical services",692501,Scientific Testing and Analysis Services,0.545%,0.545
+"Professional, scientific and technical services",693101,Legal Services,0.497%,0.497
+"Professional, scientific and technical services",693201,Accounting Services,0.400%,0.4
+"Professional, scientific and technical services",694001,Advertising Services,0.452%,0.452
+"Professional, scientific and technical services",695001,Market Research and Statistical Services,0.435%,0.435
+"Professional, scientific and technical services",696101,Corporate Head Office Management Services,0.452%,0.452
+"Professional, scientific and technical services",696201,Management Advice and Related Consulting Services,0.400%,0.4
+"Professional, scientific and technical services",697001,Veterinary Services,1.174%,1.174
+"Professional, scientific and technical services",699101,Professional Photographic Services,1.437%,1.437
+"Professional, scientific and technical services",699901,"Other Professional, Scientific and Technical Services n.e.c.",0.464%,0.464
+"Professional, scientific and technical services",700001,Computer System Design and Related Services,0.400%,0.4
+Administrative and support services,721101,Employment Placement and Recruitment Services,1.750%,1.75
+Administrative and support services,721201,Labour Supply Services,0.704%,0.704
+Administrative and support services,721202,Employment Programs,2.380%,2.38
+Administrative and support services,722001,Travel Agency and Tour Arrangement Services,0.460%,0.46
+Administrative and support services,729101,Office Administrative Services,0.451%,0.451
+Administrative and support services,729201,Document Preparation Services,1.268%,1.268
+Administrative and support services,729301,Credit Reporting and Debt Collection Services,0.739%,0.739
+Administrative and support services,729401,Call Centre Operation,0.806%,0.806
+Administrative and support services,729901,Other Administrative Services n.e.c.,0.741%,0.741
+Administrative and support services,731101,Building and Other Industrial Cleaning Services,4.729%,4.729
+Administrative and support services,731201,Building Pest Control Services,4.379%,4.379
+Administrative and support services,731301,Gardening Services,3.834%,3.834
+Administrative and support services,731302,Tree Lopping and Arborist Services,7.492%,7.492
+Administrative and support services,732001,Packaging Services,2.596%,2.596
+Public administration and safety,751001,Central Government Administration,0.444%,0.444
+Public administration and safety,752001,State Government Administration,0.459%,0.459
+Public administration and safety,753001,Local Government Administration,2.436%,2.436
+Public administration and safety,754001,Justice,0.648%,0.648
+Public administration and safety,755101,Domestic Government Representation,0.492%,0.492
+Public administration and safety,755201,Foreign Government Representation,0.492%,0.492
+Public administration and safety,760001,Defence,2.916%,2.916
+Public administration and safety,771101,Police Services,2.139%,2.139
+Public administration and safety,771201,Investigation and Security Services,4.135%,4.135
+Public administration and safety,771202,Security Support Services,2.082%,2.082
+Public administration and safety,771301,Fire Protection and Other Emergency Services,3.694%,3.694
+Public administration and safety,771401,Correctional and Detention Services,3.677%,3.677
+Public administration and safety,771901,Other Public Order and Safety Services,4.365%,4.365
+Public administration and safety,772001,Regulatory Services,0.570%,0.57
+Education and training,801001,Preschool Education,1.469%,1.469
+Education and training,802101,Primary Education,0.845%,0.845
+Education and training,802201,Secondary Education,0.832%,0.832
+Education and training,802301,Combined Primary and Secondary Education,0.891%,0.891
+Education and training,802401,Special School Education,1.823%,1.823
+Education and training,810101,Technical and Vocational Education and Training,1.445%,1.445
+Education and training,810201,Higher Education,0.549%,0.549
+Education and training,821101,Sports and Physical Recreation Instruction,1.425%,1.425
+Education and training,821201,Arts Education,1.415%,1.415
+Education and training,821901,"Adult, Community and Other Education n.e.c.",1.321%,1.321
+Education and training,822001,Educational Support Services,1.341%,1.341
+Health care and social assistance,840101,Hospitals (Except Psychiatric Hospitals),2.136%,2.136
+Health care and social assistance,840201,Psychiatric Hospitals,1.839%,1.839
+Health care and social assistance,851101,General Practice Medical Services,0.474%,0.474
+Health care and social assistance,851201,Specialist Medical Services,0.400%,0.4
+Health care and social assistance,852001,Pathology Services,1.487%,1.487
+Health care and social assistance,852002,Diagnostic Imaging Services,0.418%,0.418
+Health care and social assistance,853101,Dental Services,0.467%,0.467
+Health care and social assistance,853201,"Optometry, Optical Dispensing and Audiology Services",0.470%,0.47
+Health care and social assistance,853301,Physiotherapy Services,0.611%,0.611
+Health care and social assistance,853401,Chiropractic and Osteopathic Services,0.400%,0.4
+Health care and social assistance,853901,Other Allied Health Services,0.870%,0.87
+Health care and social assistance,853902,Nursing Services (own account),3.062%,3.062
+Health care and social assistance,859101,Ambulance Services,3.092%,3.092
+Health care and social assistance,859901,Other Health Care Services n.e.c.,1.020%,1.02
+Health care and social assistance,859902,Community Health Centres (Medical),2.138%,2.138
+Health care and social assistance,859903,Community Health Centres (Paramedical),3.804%,3.804
+Health care and social assistance,860101,Aged Care Residential Services,3.594%,3.594
+Health care and social assistance,860901,Other Residential Care Services,4.390%,4.39
+Health care and social assistance,871001,Child Care Services,2.103%,2.103
+Health care and social assistance,879001,Other Social Assistance Services,2.739%,2.739
+Arts and recreation services,891001,Museum Operation,1.713%,1.713
+Arts and recreation services,892101,Zoological and Botanical Gardens Operation,3.286%,3.286
+Arts and recreation services,892201,Nature Reserves and Conservation Parks Operation,3.057%,3.057
+Arts and recreation services,900101,Performing Arts Operation,2.373%,2.373
+Arts and recreation services,900201,"Creative Artists, Musicians, Writers and Performers",0.408%,0.408
+Arts and recreation services,900301,Performing Arts Venue Operation,1.670%,1.67
+Arts and recreation services,911101,Health and Fitness Centres and Gymnasia Operation,1.361%,1.361
+Arts and recreation services,911201,Sports and Physical Recreation Clubs and Sports Professionals,1.361%,1.361
+Arts and recreation services,911202,Thoroughbred Horse Racing,23.812%,23.812
+Arts and recreation services,911301,"Sports and Physical Recreation Venues, Grounds and Facilities Operation",1.498%,1.498
+Arts and recreation services,911401,Sports and Physical Recreation Administrative Service,0.915%,0.915
+Arts and recreation services,912101,Horse and Dog Racing Administration and Track Operation,1.798%,1.798
+Arts and recreation services,912901,Other Horse Racing Activities,10.241%,10.241
+Arts and recreation services,912902,Other Dog Racing Activities,1.459%,1.459
+Arts and recreation services,913106,Amusement Parks and Centres Operation,1.754%,1.754
+Arts and recreation services,913901,Amusement and Other Recreational Activities n.e.c.,1.718%,1.718
+Arts and recreation services,920101,Casino Operation,1.655%,1.655
+Arts and recreation services,920201,Lottery Operation,0.799%,0.799
+Arts and recreation services,920901,Other Gambling Activities,0.731%,0.731
+Other services,941101,Automotive Electrical Services,2.169%,2.169
+Other services,941201,"Automotive Body, Paint and Interior Repair",3.509%,3.509
+Other services,941203,Automotive Glass Replacement and Repair Services,1.964%,1.964
+Other services,941901,Other Automotive Repair and Maintenance,2.712%,2.712
+Other services,942101,Domestic Appliance Repair and Maintenance,2.358%,2.358
+Other services,942201,Electronic (except Domestic Appliance) and Precision Equipment Repair and Maintenance,0.658%,0.658
+Other services,942901,Other Machinery and Equipment Repair and Maintenance,2.513%,2.513
+Other services,942902,"Agricultural, Farm, Construction and Earthmoving Machinery and Equipment Repair and Maintenance",1.526%,1.526
+Other services,949101,Clothing and Footwear Repair,1.136%,1.136
+Other services,949901,Other Repair and Maintenance n.e.c.,2.286%,2.286
+Other services,951101,Hairdressing and Beauty Services,1.272%,1.272
+Other services,951201,Diet and Weight Reduction Centre Operation,2.550%,2.55
+Other services,952001,Funeral Services,2.099%,2.099
+Other services,952002,Crematorium and Cemetery Services,5.638%,5.638
+Other services,953101,Commercial Laundries and Linen Hire Services,5.791%,5.791
+Other services,953102,Laundrettes and Dry-Cleaners,3.284%,3.284
+Other services,953201,Photographic Film Processing,0.926%,0.926
+Other services,953301,Parking Services,2.764%,2.764
+Other services,953401,Brothel Keeping and Prostitution Services,1.754%,1.754
+Other services,953901,Other Personal Services n.e.c.,1.736%,1.736
+Other services,953902,Pet Care Services,4.241%,4.241
+Other services,954001,Religious Services,0.840%,0.84
+Other services,955101,Business and Professional Association Services,0.719%,0.719
+Other services,955201,Labour Association Services,1.113%,1.113
+Other services,955901,Other Interest Group Services n.e.c.,1.892%,1.892
+Other services,955902,Political Parties,0.400%,0.4
+Other services,960101,Private Households Employing Staff,3.071%,3.071
+Non-classifiable,990001,Non-classifiable Economic Units,23.812%,23.812
