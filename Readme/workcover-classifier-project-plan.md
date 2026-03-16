@@ -1,4 +1,4 @@
-# WorkCover Classification Engine — Portfolio Project Plan
+# WorkCover Classification Engine — Project Plan
 
 ## Project Overview
 
@@ -87,8 +87,8 @@ This solves a real pain point for employers, staffing agencies, insurers, and pa
 | Text preprocessing | `re`, custom normaliser | Handle abbreviations, typos, variations |
 | Frontend | `Streamlit` | Quick to build, looks professional, easy to deploy |
 | Storage | CSV/Parquet files (or DuckDB for bonus points) | Keep it simple, no DB setup needed |
-| Version control | Git + GitHub | Portfolio visibility |
-| Deployment | Streamlit Community Cloud (free) | Live demo link for resume/LinkedIn |
+| Version control | Git + GitHub | Standard collaboration and versioning |
+| Deployment | Streamlit Community Cloud (free) | Free hosting, easy to deploy |
 
 ---
 
@@ -105,7 +105,7 @@ The Australian Bureau of Statistics publishes the full ANZSCO classification hie
 
 Download from: https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/latest-release
 
-You'll want to extract all 6-digit occupation codes with their titles and any alternative titles listed. This becomes your "target label set" (~1,000+ occupations).
+Extract all 6-digit occupation codes with their titles and any alternative titles listed. This becomes the target label set (~1,000+ occupations).
 
 ### 2. ANZSIC Reference Data (Source: ABS)
 
@@ -128,8 +128,7 @@ construction industry WIC — not under an "administration" code.
 
 #### The Labour Hire Exception (Critical for This Project!)
 
-The one major exception — and this is directly relevant to your ManpowerGroup experience —
-is **labour hire / staffing companies**. In most states, labour hire firms must classify
+The one major exception is **labour hire / staffing companies**. In most states, labour hire firms must classify
 each placed worker based on the **activity/industry of the host employer** (i.e., what the
 worker actually does or where they're placed), NOT under a single "labour hire" industry code.
 
@@ -141,12 +140,12 @@ Similarly in WA: A labourer, project manager, engineer and accountant supplied t
 exploration business would all be classified under PRC 10120 (Mineral Exploration), not under
 a generic labour hire code.
 
-This means **staffing companies like ManpowerGroup must effectively do BOTH**:
+This means **staffing companies must effectively do BOTH**:
 1. Map the worker's occupation/job title to understand what they do
 2. Determine the host employer's industry classification
 3. Apply the correct state-specific WIC/classification code
 
-This is exactly the problem your tool solves!
+This is exactly the problem this tool solves.
 
 #### State-by-State Classification Details
 
@@ -293,73 +292,69 @@ Include a mix of:
 
 ---
 
-## Phased Development Plan
+## Progress
 
-### Phase 1: Data Foundation (Days 1-3)
-- [ ] Set up GitHub repo with clean README
-- [ ] Download and parse ANZSCO codes from ABS into structured CSV/Parquet
-- [ ] Download ANZSIC codes
-- [ ] Research and compile state WorkCover classification tables (start with VIC and NSW)
-- [ ] Build the ANZSCO → state WorkCover crosswalk for at least 3 states
-- [ ] Generate synthetic employee dataset (500+ records with ground truth labels)
+### Completed
+- [x] Set up GitHub repo with README
+- [x] Download and parse ANZSCO codes from ABS into Parquet (1,434 occupation codes)
+- [x] Download and parse ANZSIC codes into Parquet (829 rows, 4-level hierarchy)
+- [x] Parse OSCA category descriptions into Parquet (1,157 rows)
+- [x] Parse SA SAIC premium rates from DOCX into Parquet (528 rows)
+- [x] Parse WA PRC codes from Excel into Parquet (517 rows)
+- [x] Generate synthetic employee dataset (500 rows with ground truth labels)
+- [x] Pre-compute embeddings for all ANZSCO occupation titles
+- [x] Build matching pipeline (embed job title → cosine similarity → top match)
+- [x] Implement state-based routing (NSW labour hire → occupation; all others → industry)
+- [x] Evaluate accuracy against synthetic ground truth (Precision@1: 33.4%)
+- [x] Export classified results to Parquet and Excel
 
-### Phase 2: Core Classification Engine (Days 4-7)
-- [ ] Build text preprocessor:
-  - Lowercase, strip whitespace
-  - Expand common abbreviations (Snr → Senior, Eng → Engineer, Mgr → Manager, etc.)
-  - Remove seniority prefixes for matching (but keep for context)
-  - Handle special characters and slashes
-- [ ] Pre-compute embeddings for all ANZSCO occupation titles + alternative titles
-- [ ] Build the matching pipeline:
-  - Embed input job title
-  - Cosine similarity against ANZSCO embeddings
-  - Return top-N matches with confidence scores
-- [ ] Implement confidence thresholds:
-  - High (>0.85): auto-classify
-  - Medium (0.65-0.85): classify with review flag
-  - Low (<0.65): flag for manual review
-- [ ] Add state WorkCover mapping layer
-- [ ] Evaluate accuracy against synthetic ground truth
+---
 
-### Phase 3: Streamlit Frontend (Days 8-10)
+## TODO
+
+### Improve ANZSCO classification accuracy (currently 33.4%)
+- [ ] Build text preprocessor (expand abbreviations, normalise seniority prefixes, handle slashes)
+- [ ] Add OSCA alternative titles to the embedding index for broader matching
+- [ ] Implement confidence thresholds (high >0.85 auto-classify, medium 0.65-0.85 review flag, low <0.65 manual review)
+- [ ] Add employer industry (ANZSIC) as input context to improve accuracy
+- [ ] Evaluate Top-3 and Top-5 accuracy alongside Top-1
+
+### State-specific WIC mapping
+- [ ] Add WA PRC mapping layer — match effective ANZSIC code to `States/WA PRC/WA_PRC.parquet` premium rating codes
+- [ ] Add SA SAIC mapping layer — match effective ANZSIC code to `States/SA/industry_premium_rates_2025-26.parquet` premium rates
+- [ ] Add VIC WorkSafe WIC mapping (source data TBD)
+- [ ] Add QLD WorkCover classification mapping (source data TBD)
+- [ ] Add TAS WorkCover mapping (source data TBD)
+- [ ] Add ACT mapping (source data TBD)
+- [ ] Return state-specific premium rate / WIC code alongside the generic `workcover_code`
+
+### ABN → ANZSIC lookup
+- [ ] Integrate ABR (Australian Business Register) API to look up ANZSIC codes by ABN
+- [ ] Replace hardcoded `employer_industry_anzsic` / `host_employer_industry_anzsic` from CSV with live ABN lookups
+- [ ] Add caching layer so repeated ABNs don't re-hit the API
+- [ ] Handle ABN lookup failures gracefully (fall back to source data values)
+
+### Local LLM for company name → ANZSIC classification
+- [ ] Use a local LLM (e.g. Llama/Mistral via `transformers` or `llama-cpp-python`) to classify employer/host employer names to ANZSIC codes
+- [ ] Use as fallback when ABN is missing or ABR lookup returns no result
+- [ ] Evaluate accuracy against ground-truth ANZSIC codes in the synthetic dataset
+- [ ] Consider few-shot prompting with ANZSIC taxonomy descriptions for better classification
+
+### Streamlit frontend
 - [ ] Single job title input mode (job title + state → result)
 - [ ] CSV batch upload mode (upload employee file → download classified results)
-- [ ] Results display:
-  - Matched ANZSCO code and title
-  - Confidence score with colour coding (green/amber/red)
-  - State WorkCover classification
-  - Alternative matches (top 3)
-- [ ] Summary dashboard for batch uploads:
-  - Distribution of confidence scores
-  - Count by ANZSCO major group
-  - Count flagged for review
-  - State breakdown
-
-### Phase 4: Polish & Deploy (Days 11-14)
-- [ ] Write proper README with:
-  - Problem statement (business context)
-  - Architecture diagram
-  - How to run locally
-  - Sample screenshots
-  - Accuracy metrics
-  - Future improvements
-- [ ] Add evaluation notebook showing precision/recall metrics
+- [ ] Results display with confidence score colour coding and alternative matches
+- [ ] Summary dashboard for batch uploads (confidence distribution, state breakdown, review flags)
 - [ ] Deploy to Streamlit Community Cloud
-- [ ] Record a 2-minute demo video (optional but impressive)
 
-### Phase 5: Bonus Features (if time permits)
-- [ ] Add employer industry (ANZSIC) as input context to improve accuracy
+### Other
 - [ ] Implement feedback loop (user corrects a classification → improves future matches)
-- [ ] Add premium rate estimates per state
 - [ ] DuckDB backend for query-able results
-- [ ] dbt models for the transformation layer (signals analytics engineering skills)
 - [ ] API endpoint (FastAPI) alongside the Streamlit UI
 
 ---
 
 ## Abbreviation Dictionary (Starter)
-
-Build this out as a key preprocessing asset:
 
 ```python
 ABBREVIATIONS = {
@@ -408,8 +403,6 @@ ABBREVIATIONS = {
 
 ## Evaluation Metrics
 
-Track and display these in your evaluation notebook:
-
 - **Top-1 Accuracy**: % of job titles where the top match is the correct ANZSCO code
 - **Top-3 Accuracy**: % where the correct code is in the top 3 matches
 - **Top-5 Accuracy**: % where the correct code is in the top 5 matches
@@ -417,101 +410,4 @@ Track and display these in your evaluation notebook:
 - **Confusion analysis**: which occupation groups are most commonly confused
 - **Processing speed**: titles classified per second on CPU
 
-Target: Top-1 accuracy of 70-80% is realistic and honest. Top-3 of 85-90% is very achievable with embeddings. Be transparent about limitations — that's what impresses senior hiring managers.
-
----
-
-## Key Talking Points for Interviews
-
-When discussing this project, emphasise:
-
-1. **Business problem first**: "Employers — especially staffing companies — waste hours manually classifying employees for WorkCover. This automates 80%+ of cases and flags the tricky ones for human review."
-
-2. **Deep domain knowledge**: "All Australian states use industry-based classification derived from ANZSIC, but each has its own system — VIC and NSW use WIC codes (~510 and 538 respectively), SA uses SAIC, WA uses PRC codes. The tool handles all of them. The critical edge case is labour hire, where classification shifts from the employer's industry to the host employer's activity — which is the scenario I dealt with daily at ManpowerGroup."
-
-3. **Real-world messiness**: "Job titles in the wild are messy — abbreviations, slang, combined roles. A 'Sparky' is an Electrician, 'Forky' is a Forklift Operator. The preprocessing pipeline handles all of this before the embeddings do their work."
-
-4. **Practical ML choices**: "I used sentence-transformers on CPU rather than a large LLM because in production, you need something fast and cost-effective that can classify thousands of titles in batch. The model generates embeddings once for all ANZSCO titles, then it's just cosine similarity lookups."
-
-5. **Your unique edge**: "I built this because I saw this exact problem at ManpowerGroup — classifying thousands of contingent workers across states for WorkCover compliance. Every misclassification means either overpaying premiums or compliance risk."
-
-6. **Honest evaluation**: "Top-1 accuracy is X%, but with the confidence threshold system, we can auto-classify high-confidence matches and route the rest for human review — which is exactly how it would work in production. The labour hire pathway is inherently harder because you need both the occupation AND the host industry to get the right WIC."
-
----
-
-## GitHub Repo Structure
-
-```
-workcover-classifier/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/
-│   ├── raw/
-│   │   ├── anzsco_codes.csv
-│   │   ├── anzsic_codes.csv
-│   │   └── state_workcover/
-│   │       ├── vic_wic_codes.csv
-│   │       ├── nsw_wic_codes.csv
-│   │       └── qld_classification.csv
-│   ├── processed/
-│   │   ├── anzsco_with_embeddings.parquet
-│   │   └── state_crosswalk.csv
-│   └── sample/
-│       └── synthetic_employees.csv
-├── src/
-│   ├── __init__.py
-│   ├── preprocessor.py          # Text cleaning & abbreviation expansion
-│   ├── embeddings.py            # Embedding generation & caching
-│   ├── classifier.py            # Core ANZSCO matching logic
-│   ├── state_mapper.py          # ANZSCO → state WorkCover mapping
-│   └── pipeline.py              # End-to-end classification pipeline
-├── app/
-│   └── streamlit_app.py         # Streamlit frontend
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_model_evaluation.ipynb
-│   └── 03_error_analysis.ipynb
-└── tests/
-    ├── test_preprocessor.py
-    └── test_classifier.py
-```
-
----
-
-## Estimated Timeline
-
-| Phase | Effort | Calendar Time (part-time) |
-|---|---|---|
-| Phase 1: Data Foundation | ~8 hours | 3-4 days |
-| Phase 2: Core Engine | ~12 hours | 4-5 days |
-| Phase 3: Streamlit UI | ~8 hours | 3-4 days |
-| Phase 4: Polish & Deploy | ~6 hours | 2-3 days |
-| **Total** | **~34 hours** | **~2 weeks** |
-
-This is very achievable alongside job searching. The key is to get Phase 1 and 2 done solidly — that's where the substance is. The UI is just the wrapper that makes it demo-able.
-
----
-
-## TODO
-
-### State-specific WIC mapping
-- [ ] Add WA PRC mapping layer — match effective ANZSIC code to `States/WA PRC/WA_PRC.parquet` premium rating codes
-- [ ] Add SA SAIC mapping layer — match effective ANZSIC code to `States/SA/industry_premium_rates_2025-26.parquet` premium rates
-- [ ] Add VIC WorkSafe WIC mapping (source data TBD)
-- [ ] Add QLD WorkCover classification mapping (source data TBD)
-- [ ] Add TAS WorkCover mapping (source data TBD)
-- [ ] Add ACT mapping (source data TBD)
-- [ ] Return state-specific premium rate / WIC code alongside the generic `workcover_code`
-
-### ABN → ANZSIC lookup
-- [ ] Integrate ABR (Australian Business Register) API to look up ANZSIC codes by ABN
-- [ ] Replace hardcoded `employer_industry_anzsic` / `host_employer_industry_anzsic` from CSV with live ABN lookups
-- [ ] Add caching layer so repeated ABNs don't re-hit the API
-- [ ] Handle ABN lookup failures gracefully (fall back to source data values)
-
-### Local LLM for company name → ANZSIC classification
-- [ ] Use a local LLM (e.g. Llama/Mistral via `transformers` or `llama-cpp-python`) to classify employer/host employer names to ANZSIC codes
-- [ ] Use as fallback when ABN is missing or ABR lookup returns no result
-- [ ] Evaluate accuracy against ground-truth ANZSIC codes in the synthetic dataset
-- [ ] Consider few-shot prompting with ANZSIC taxonomy descriptions for better classification
+Target: Top-1 accuracy of 70-80%. Top-3 of 85-90% is achievable with embeddings.

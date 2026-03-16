@@ -157,13 +157,3 @@ IF labour hire AND state = VIC/QLD/WA/SA/TAS/ACT:
     → (Worker's ANZSCO is captured for reporting but doesn't drive the WIC)
 ```
 
----
-
-## Key Interview Talking Point
-
-"The most interesting finding during this project was that Australian states don't all handle
-labour hire the same way. NSW classifies placed workers by their occupation — so a nurse
-placed at a construction company gets a health services WIC. But in VIC and QLD, that same
-nurse would get the construction WIC because they follow the host employer's industry.
-This has real financial impact — a health services WIC rate might be 1.2% of wages while
-construction could be 4.8%. The tool handles both approaches."
