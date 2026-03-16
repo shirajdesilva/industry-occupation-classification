@@ -490,3 +490,28 @@ workcover-classifier/
 | **Total** | **~34 hours** | **~2 weeks** |
 
 This is very achievable alongside job searching. The key is to get Phase 1 and 2 done solidly — that's where the substance is. The UI is just the wrapper that makes it demo-able.
+
+---
+
+## TODO
+
+### State-specific WIC mapping
+- [ ] Add WA PRC mapping layer — match effective ANZSIC code to `States/WA PRC/WA_PRC.parquet` premium rating codes
+- [ ] Add SA SAIC mapping layer — match effective ANZSIC code to `States/SA/industry_premium_rates_2025-26.parquet` premium rates
+- [ ] Add VIC WorkSafe WIC mapping (source data TBD)
+- [ ] Add QLD WorkCover classification mapping (source data TBD)
+- [ ] Add TAS WorkCover mapping (source data TBD)
+- [ ] Add ACT mapping (source data TBD)
+- [ ] Return state-specific premium rate / WIC code alongside the generic `workcover_code`
+
+### ABN → ANZSIC lookup
+- [ ] Integrate ABR (Australian Business Register) API to look up ANZSIC codes by ABN
+- [ ] Replace hardcoded `employer_industry_anzsic` / `host_employer_industry_anzsic` from CSV with live ABN lookups
+- [ ] Add caching layer so repeated ABNs don't re-hit the API
+- [ ] Handle ABN lookup failures gracefully (fall back to source data values)
+
+### Local LLM for company name → ANZSIC classification
+- [ ] Use a local LLM (e.g. Llama/Mistral via `transformers` or `llama-cpp-python`) to classify employer/host employer names to ANZSIC codes
+- [ ] Use as fallback when ABN is missing or ABR lookup returns no result
+- [ ] Evaluate accuracy against ground-truth ANZSIC codes in the synthetic dataset
+- [ ] Consider few-shot prompting with ANZSIC taxonomy descriptions for better classification
