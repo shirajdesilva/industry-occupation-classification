@@ -1,0 +1,520 @@
+wic_code,description,claims_cost_rate_pct,industry_rate_pct,division,anzsic_class_code
+A01110,Nursery Production (Under Cover),2.128,3.568,A,0111
+A01120,Nursery Production (Outdoors),1.031,3.534,A,0112
+A01130,Turf Growing,2.358,3.275,A,0113
+A01140,Floriculture Production (Under Cover),1.449,3.378,A,0114
+A01150,Floriculture Production (Outdoors),2.657,3.273,A,0115
+A01210,Mushroom Growing,0.305,2.877,A,0121
+A01220,Vegetable Growing (Under Cover),0.248,2.258,A,0122
+A01230,Vegetable Growing (Outdoors),1.078,3.186,A,0123
+A01310,Grape Growing,0.528,2.557,A,0131
+A01320,Kiwifruit Growing,0.169,3.451,A,0132
+A01330,Berry Fruit Growing,0.668,3.227,A,0133
+A01340,Apple and Pear Growing,1.008,2.784,A,0134
+A01350,Stone Fruit Growing,0.37,2.85,A,0135
+A01360,Citrus Fruit Growing,1.172,3.384,A,0136
+A01370,Olive Growing,0.169,3.472,A,0137
+A01390,Other Fruit and Tree Nut Growing,0.91,2.537,A,0139
+A01410,Sheep Farming (Specialised),0.614,2.594,A,0141
+A01420,Beef Cattle Farming (Specialised),1.717,3.475,A,0142
+A01430,Beef Cattle Feedlots (Specialised),3.7,5.821,A,0143
+A01440,Sheep-Beef Cattle Farming,0.971,2.935,A,0144
+A01450,Grain-Sheep and/or Grain-Beef Cattle Farming,1.101,3.303,A,0145
+A01460,Rice Growing,0.169,3.451,A,0146
+A01490,Other Grain Growing,0.777,2.257,A,0149
+A01510,Sugar Cane Growing,0.169,3.451,A,0151
+A01520,Cotton Growing,0.169,3.451,A,0152
+A01590,Other Crop Growing n.e.c.,0.845,3.067,A,0159
+A01600,Dairy Cattle Farming,2.036,4.896,A,0160
+A01710,Poultry Farming (Meat),2.447,4.65,A,0171
+A01720,Poultry Farming (Eggs),1.393,3.675,A,0172
+A01800,Deer Farming,0.169,3.451,A,0180
+A01910,Horse Farming,2.384,9.336,A,0191
+A01920,Pig Farming,0.905,4.11,A,0192
+A01930,Beekeeping,0.169,3.414,A,0193
+A01990,Other Livestock Farming n.e.c.,3.412,5.493,A,0199
+A02010,Offshore Longline and Rack Aquaculture,0.169,3.392,A,0201
+A02020,Offshore Caged Aquaculture,0.169,3.451,A,0202
+A02030,Onshore Aquaculture,0.169,3.089,A,0203
+A03010,Forestry,0.169,3.217,A,0301
+A03020,Logging,1.57,2.892,A,0302
+A04110,Rock Lobster and Crab Potting,0.299,3.402,A,0411
+A04120,Prawn Fishing,0.169,3.451,A,0412
+A04130,Line Fishing,0.169,3.451,A,0413
+A04140,"Fish Trawling, Seining and Netting",0.169,3.451,A,0414
+A04190,Other Fishing,3.332,7.397,A,0419
+A04200,Hunting and Trapping,0.658,3.417,A,0420
+A05100,Forestry Support Services,1.512,3.649,A,0510
+A05210,Cotton Ginning,0.169,3.451,A,0521
+A05220,Shearing Services,2.653,6.192,A,0522
+A05290,Other Agriculture and Fishing Support Services,1.305,3.117,A,0529
+B06000,Coal Mining,0.528,1.503,B,0600
+B07000,Oil and Gas Extraction,0.169,2.129,B,0700
+B08010,Iron Ore Mining,0.169,2.375,B,0801
+B08020,Bauxite Mining,0.169,2.375,B,0802
+B08030,Copper Ore Mining,0.868,4.053,B,0803
+B08040,Gold Ore Mining,1.16,3.715,B,0804
+B08050,Mineral Sand Mining,0.169,2.297,B,0805
+B08060,Nickel Ore Mining,0.169,2.375,B,0806
+B08070,Silver-Lead-Zinc Ore Mining,0.169,2.375,B,0807
+B08090,Other Metal Ore Mining,0.169,2.375,B,0809
+B09110,Gravel and Sand Quarrying,1.103,4.538,B,0911
+B09190,Other Construction Material Mining,1.556,3.007,B,0919
+B09900,Other Non-Metallic Mineral Mining and Quarrying,0.595,2.563,B,0990
+B10110,Petroleum Exploration,0.169,2.292,B,1011
+B10120,Mineral Exploration,0.802,1.967,B,1012
+B10900,Other Mining Support Services,1.142,2.462,B,1090
+C11110,Meat Processing,1.831,5.01,C,1111
+C11120,Poultry Processing,1.87,4.203,C,1112
+C11130,Cured Meat and Smallgoods Manufacturing,1.684,4.478,C,1113
+C11200,Seafood Processing,0.522,3.6,C,1120
+C11310,Milk and Cream Processing,1.363,3.511,C,1131
+C11320,Ice Cream Manufacturing,0.837,2.505,C,1132
+C11330,Cheese and Other Dairy Product Manufacturing,1.183,3.028,C,1133
+C11400,Fruit and Vegetable Processing,1.611,3.997,C,1140
+C11500,Oil and Fat Manufacturing,0.553,2.426,C,1150
+C11610,Grain Mill Product Manufacturing,2.333,4.217,C,1161
+C11620,"Cereal, Pasta and Baking Mix Manufacturing",2.667,5.656,C,1162
+C11710,Bread Manufacturing (Factory Based),1.278,4.156,C,1171
+C11720,Cake and Pastry Manufacturing (Factory Based),1.633,4.373,C,1172
+C11730,Biscuit Manufacturing (Factory Based),2.988,6.416,C,1173
+C11740,Bakery Product Manufacturing (Non-Factory Based),0.795,1.865,C,1174
+C11810,Sugar Manufacturing,1.678,3.126,C,1181
+C11820,Confectionery Manufacturing,2.055,5.184,C,1182
+C11910,"Potato, Corn and Other Crisp Manufacturing",1.889,3.697,C,1191
+C11920,Prepared Animal and Bird Feed Manufacturing,1.427,4.655,C,1192
+C11990,Other Food Product Manufacturing n.e.c.,1.125,2.654,C,1199
+C12110,"Soft Drink, Cordial and Syrup Manufacturing",0.722,1.667,C,1211
+C12120,Beer Manufacturing,0.497,2.479,C,1212
+C12130,Spirit Manufacturing,0.886,2.791,C,1213
+C12140,Wine and Other Alcoholic Beverage Manufacturing,1.234,2.607,C,1214
+C12200,Cigarette and Tobacco Product Manufacturing,0.169,3.63,C,1220
+C13110,Wool Scouring,6.312,4.702,C,1311
+C13120,Natural Textile Manufacturing,2.867,5.25,C,1312
+C13130,Synthetic Textile Manufacturing,7.682,6.836,C,1313
+C13200,"Leather Tanning, Fur Dressing and Leather Product Manufacturing",2.139,7.658,C,1320
+C13310,Textile Floor Covering Manufacturing,1.819,3.707,C,1331
+C13320,"Rope, Cordage and Twine Manufacturing",0.251,3.594,C,1332
+C13330,Cut and Sewn Textile Product Manufacturing,1.831,3.075,C,1333
+C13340,Textile Finishing and Other Textile Product Manufacturing,2.117,3.561,C,1334
+C13400,Knitted Product Manufacturing,0.835,3.595,C,1340
+C13510,Clothing Manufacturing,1.806,2.457,C,1351
+C13520,Footwear Manufacturing,0.169,3.528,C,1352
+C14110,Log Sawmilling,3.419,5.65,C,1411
+C14120,Wood Chipping,0.681,3.115,C,1412
+C14130,Timber Resawing and Dressing,2.228,4.322,C,1413
+C14910,Prefabricated Wooden Building Manufacturing,0.64,3.233,C,1491
+C14920,Wooden Structural Fitting and Component Manufacturing,1.778,4.358,C,1492
+C14930,Veneer and Plywood Manufacturing,0.306,3.5,C,1493
+C14940,Reconstituted Wood Product Manufacturing,1.58,7.074,C,1494
+C14990,Other Wood Product Manufacturing n.e.c.,1.384,4.616,C,1499
+C15100,"Pulp, Paper and Paperboard Manufacturing",1.584,4.529,C,1510
+C15210,Corrugated Paperboard and Paperboard Container Manufacturing,0.91,4.053,C,1521
+C15220,Paper Bag Manufacturing,0.265,3.504,C,1522
+C15230,Paper Stationery Manufacturing,1.144,3.076,C,1523
+C15240,Sanitary Paper Product Manufacturing,1.322,2.789,C,1524
+C15290,Other Converted Paper Product Manufacturing,3.28,5.778,C,1529
+C16110,Printing,0.927,2.539,C,1611
+C16120,Printing Support Services,0.662,2.617,C,1612
+C16200,Reproduction of Recorded Media,1.1,3.585,C,1620
+C17010,Petroleum Refining and Petroleum Fuel Manufacturing,0.169,3.524,C,1701
+C17090,Other Petroleum and Coal Product Manufacturing,1.044,2.968,C,1709
+C18110,Industrial Gas Manufacturing,0.169,3.507,C,1811
+C18120,Basic Organic Chemical Manufacturing,1.175,3.046,C,1812
+C18130,Basic Inorganic Chemical Manufacturing,1.416,3.381,C,1813
+C18210,Synthetic Resin and Synthetic Rubber Manufacturing,0.88,2.8,C,1821
+C18290,Other Basic Polymer Manufacturing,2.527,3.513,C,1829
+C18310,Fertiliser Manufacturing,0.693,2.781,C,1831
+C18320,Pesticide Manufacturing,0.196,2.732,C,1832
+C18410,Human Pharmaceutical and Medicinal Product Manufacturing,1.012,2.659,C,1841
+C18420,Veterinary Pharmaceutical and Medicinal Product Manufacturing,0.46,2.706,C,1842
+C18510,Cleaning Compound Manufacturing,0.805,3.304,C,1851
+C18520,Cosmetic and Toiletry Preparation Manufacturing,1.406,2.93,C,1852
+C18910,Photographic Chemical Product Manufacturing,0.169,3.63,C,1891
+C18920,Explosive Manufacturing,0.169,3.491,C,1892
+C18990,Other Basic Chemical Product Manufacturing n.e.c.,0.267,2.483,C,1899
+C19110,Polymer Film and Sheet Packaging Material Manufacturing,1.165,3.762,C,1911
+C19120,Rigid and Semi-Rigid Polymer Product Manufacturing,2.108,5.244,C,1912
+C19130,Polymer Foam Product Manufacturing,2.009,3.801,C,1913
+C19140,Tyre Manufacturing,0.389,3.735,C,1914
+C19150,Adhesive Manufacturing,0.683,3.079,C,1915
+C19160,Paint and Coatings Manufacturing,1.314,2.764,C,1916
+C19190,Other Polymer Product Manufacturing,1.177,2.926,C,1919
+C19200,Natural Rubber Product Manufacturing,1.771,3.056,C,1920
+C20100,Glass and Glass Product Manufacturing,1.481,6.059,C,2010
+C20210,Clay Brick Manufacturing,2.724,3.765,C,2021
+C20290,Other Ceramic Product Manufacturing,6.569,5.597,C,2029
+C20310,Cement and Lime Manufacturing,1.685,6.38,C,2031
+C20320,Plaster Product Manufacturing,1.933,4.827,C,2032
+C20330,Ready-Mixed Concrete Manufacturing,1.227,3.838,C,2033
+C20340,Concrete Product Manufacturing,1.685,5.539,C,2034
+C20900,Other Non-Metallic Mineral Product Manufacturing,4.582,18.0,C,2090
+C21100,Iron Smelting and Steel Manufacturing,0.293,3.098,C,2110
+C21210,Iron and Steel Casting,1.334,4.674,C,2121
+C21220,Steel Pipe and Tube Manufacturing,2.033,3.337,C,2122
+C21310,Alumina Production,0.169,3.63,C,2131
+C21320,Aluminium Smelting,0.169,3.629,C,2132
+C21330,"Copper, Silver, Lead and Zinc Smelting and Refining",0.852,3.536,C,2133
+C21390,Other Basic Non-Ferrous Metal Manufacturing,0.293,3.315,C,2139
+C21410,Non-Ferrous Metal Casting,1.245,3.819,C,2141
+C21420,"Aluminium Rolling, Drawing, Extruding",2.568,5.101,C,2142
+C21490,Other Basic Non-Ferrous Metal Product Manufacturing,0.256,3.274,C,2149
+C22100,Iron and Steel Forging,10.266,9.433,C,2210
+C22210,Structural Steel Fabricating,2.022,4.501,C,2221
+C22220,Prefabricated Metal Building Manufacturing,1.75,3.758,C,2222
+C22230,Architectural Aluminium Product Manufacturing,1.755,4.742,C,2223
+C22240,Metal Roof and Guttering Manufacturing (Except Aluminium),1.958,5.397,C,2224
+C22290,Other Structural Metal Product Manufacturing,1.525,4.318,C,2229
+C22310,"Boiler, Tank and Other Heavy Gauge Metal Container Manufacturing",1.861,3.644,C,2231
+C22390,Other Metal Container Manufacturing,0.819,2.681,C,2239
+C22400,Sheet Metal Product Manufacturing (Except Metal Structural and Container Products),1.806,4.191,C,2240
+C22910,Spring and Wire Product Manufacturing,2.419,3.467,C,2291
+C22920,"Nut, Bolt, Screw and Rivet Manufacturing",0.5,2.965,C,2292
+C22930,Metal Coating and Finishing,2.004,5.266,C,2293
+C22990,Other Fabricated Metal Product Manufacturing n.e.c.,1.418,3.256,C,2299
+C23110,Motor Vehicle Manufacturing,1.444,3.164,C,2311
+C23120,Motor Vehicle Body and Trailer Manufacturing,2.052,4.622,C,2312
+C23130,Automotive Electrical Component Manufacturing,0.169,2.831,C,2313
+C23190,Other Motor Vehicle Parts Manufacturing,1.468,4.231,C,2319
+C23910,Shipbuilding and Repair Services,6.728,5.794,C,2391
+C23920,Boatbuilding and Repair Services,3.017,4.57,C,2392
+C23930,Railway Rolling Stock Manufacturing and Repair Services,1.117,2.515,C,2393
+C23940,Aircraft Manufacturing and Repair Services,0.372,2.185,C,2394
+C23990,Other Transport Equipment Manufacturing n.e.c.,0.806,3.021,C,2399
+C24110,"Photographic, Optical and Ophthalmic Equipment Manufacturing",0.418,3.18,C,2411
+C24120,Medical and Surgical Equipment Manufacturing,0.483,1.597,C,2412
+C24190,Other Professional and Scientific Equipment Manufacturing,0.499,1.611,C,2419
+C24210,Computer and Electronic Office Equipment Manufacturing,0.243,2.775,C,2421
+C24220,Communication Equipment Manufacturing,0.439,2.456,C,2422
+C24290,Other Electronic Equipment Manufacturing,0.745,2.586,C,2429
+C24310,Electric Cable and Wire Manufacturing,0.647,3.184,C,2431
+C24320,Electric Lighting Equipment Manufacturing,0.752,2.412,C,2432
+C24390,Other Electrical Equipment Manufacturing,0.772,2.014,C,2439
+C24410,Whiteware Appliance Manufacturing,0.787,4.189,C,2441
+C24490,Other Domestic Appliance Manufacturing,1.268,3.196,C,2449
+C24510,Pump and Compressor Manufacturing,0.839,2.528,C,2451
+C24520,"Fixed Space Heating, Cooling and Ventilation Equipment Manufacturing",1.667,3.065,C,2452
+C24610,Agricultural Machinery and Equipment Manufacturing,0.853,2.861,C,2461
+C24620,Mining and Construction Machinery Manufacturing,2.029,4.678,C,2462
+C24630,Machine Tool and Parts Manufacturing,1.216,2.063,C,2463
+C24690,Other Specialised Machinery and Equipment Manufacturing,1.439,2.69,C,2469
+C24910,Lifting and Material Handling Equipment Manufacturing,0.971,2.072,C,2491
+C24990,Other Machinery and Equipment Manufacturing n.e.c.,0.566,2.451,C,2499
+C25110,Wooden Furniture and Upholstered Seat Manufacturing,1.004,3.458,C,2511
+C25120,Metal Furniture Manufacturing,1.073,2.682,C,2512
+C25130,Mattress Manufacturing,1.287,4.898,C,2513
+C25190,Other Furniture Manufacturing,2.341,3.514,C,2519
+C25910,Jewellery and Silverware Manufacturing,0.169,3.192,C,2591
+C25920,"Toy, Sporting and Recreational Product Manufacturing",1.15,2.823,C,2592
+C25990,Other Manufacturing n.e.c.,1.344,2.448,C,2599
+D26110,Fossil Fuel Electricity Generation,0.169,1.272,D,2611
+D26120,Hydro-Electricity Generation,0.169,1.868,D,2612
+D26190,Other Electricity Generation,0.233,1.09,D,2619
+D26200,Electricity Transmission,0.169,1.794,D,2620
+D26300,Electricity Distribution,0.252,0.648,D,2630
+D26400,On Selling Electricity and Electricity Market Operation,0.169,0.526,D,2640
+D27000,Gas Supply,0.169,1.306,D,2700
+D28110,Water Supply,0.278,0.972,D,2811
+D28120,Sewerage and Drainage Services,0.486,1.938,D,2812
+D29110,Solid Waste Collection Services,2.393,5.601,D,2911
+D29190,Other Waste Collection Services,2.012,4.02,D,2919
+D29210,Waste Treatment and Disposal Services,2.519,6.426,D,2921
+D29220,Waste Remediation and Materials Recovery Services,1.591,4.925,D,2922
+E30110,House Construction,0.885,2.385,E,3011
+E30190,Other Residential Building Construction,0.701,1.973,E,3019
+E30200,Non-Residential Building Construction,0.671,1.869,E,3020
+E31010,Road and Bridge Construction,1.056,2.828,E,3101
+E31090,Other Heavy and Civil Engineering Construction,0.642,1.788,E,3109
+E32110,Land Development and Subdivision,0.911,1.759,E,3211
+E32120,Site Preparation Services,1.281,2.858,E,3212
+E32210,Concreting Services,1.749,4.614,E,3221
+E32220,Bricklaying Services,2.409,8.377,E,3222
+E32230,Roofing Services,1.632,6.911,E,3223
+E32240,Structural Steel Erection Services,1.636,3.908,E,3224
+E32310,Plumbing Services,1.148,3.378,E,3231
+E32320,Electrical Services,0.607,1.769,E,3232
+E32330,Air Conditioning and Heating Services,0.617,2.078,E,3233
+E32340,Fire and Security Alarm Installation Services,0.674,2.128,E,3234
+E32390,Other Building Installation Services,1.213,2.921,E,3239
+E32410,Plastering and Ceiling Services,3.05,9.023,E,3241
+E32420,Carpentry Services,1.749,5.713,E,3242
+E32430,Tiling and Carpeting Services,3.487,12.782,E,3243
+E32440,Painting and Decorating Services,2.539,7.866,E,3244
+E32450,Glazing Services,1.369,4.399,E,3245
+E32910,Landscape Construction Services,1.533,3.757,E,3291
+E32920,Hire of Construction Machinery with Operator,0.965,4.417,E,3292
+E32990,Other Construction Services n.e.c.,1.883,5.577,E,3299
+F33110,Wool Wholesaling,0.528,1.557,F,3311
+F33120,Cereal Grain Wholesaling,0.169,1.175,F,3312
+F33190,Other Agricultural Product Wholesaling,0.737,1.743,F,3319
+F33210,Petroleum Product Wholesaling,1.162,3.276,F,3321
+F33220,Metal and Mineral Wholesaling,2.013,5.168,F,3322
+F33230,Industrial and Agricultural Chemical Product Wholesaling,0.401,1.521,F,3323
+F33310,Timber Wholesaling,1.124,2.342,F,3331
+F33320,Plumbing Goods Wholesaling,0.853,1.96,F,3332
+F33390,Other Hardware Goods Wholesaling,0.919,2.508,F,3339
+F34110,Agricultural and Construction Machinery Wholesaling,0.606,1.72,F,3411
+F34190,Other Specialised Industrial Machinery and Equipment Wholesaling,0.598,1.786,F,3419
+F34910,Professional and Scientific Goods Wholesaling,0.264,0.711,F,3491
+F34920,Computer and Computer Peripheral Wholesaling,0.169,0.624,F,3492
+F34930,Telecommunication Goods Wholesaling,0.169,0.99,F,3493
+F34940,Other Electrical and Electronic Goods Wholesaling,0.385,0.948,F,3494
+F34990,Other Machinery and Equipment Wholesaling n.e.c.,0.396,1.038,F,3499
+F35010,Car Wholesaling,0.301,0.836,F,3501
+F35020,Commercial Vehicle Sales,0.381,1.185,F,3502
+F35030,Trailer and Other Motor Vehicle Wholesaling,1.335,1.922,F,3503
+F35040,Motor Vehicle New Parts Wholesaling,0.792,1.974,F,3504
+F35050,Motor Vehicle Dismantling and Used Parts Wholesaling,1.086,4.142,F,3505
+F36010,General Line Grocery Wholesaling,2.677,5.873,F,3601
+F36020,"Meat, Poultry and Smallgoods Wholesaling",1.495,2.71,F,3602
+F36030,Dairy Produce Wholesaling,0.919,1.883,F,3603
+F36040,Fish and Seafood Wholesaling,1.597,4.106,F,3604
+F36050,Fruit and Vegetable Wholesaling,1.176,2.998,F,3605
+F36060,Liquor and Tobacco Product Wholesaling,1.061,1.549,F,3606
+F36090,Other Grocery Wholesaling,0.826,2.263,F,3609
+F37110,Textile Product Wholesaling,0.692,2.216,F,3711
+F37120,Clothing and Footwear Wholesaling,0.365,0.868,F,3712
+F37200,Pharmaceutical and Toiletry Goods Wholesaling,0.249,0.796,F,3720
+F37310,Furniture and Floor Covering Wholesaling,0.616,2.131,F,3731
+F37320,Jewellery and Watch Wholesaling,1.047,1.304,F,3732
+F37330,Kitchen and Diningware Wholesaling,0.564,1.206,F,3733
+F37340,Toy and Sporting Goods Wholesaling,0.516,0.993,F,3734
+F37350,Book and Magazine Wholesaling,0.854,1.476,F,3735
+F37360,Paper Product Wholesaling,0.664,2.195,F,3736
+F37390,Other Goods Wholesaling n.e.c.,0.725,1.694,F,3739
+F38000,Commission-Based Wholesaling,0.294,0.729,F,3800
+G39110,Car Retailing,0.414,1.179,G,3911
+G39120,Motor Cycle Retailing,0.169,1.46,G,3912
+G39130,Trailer and Other Motor Vehicle Retailing,0.628,1.481,G,3913
+G39210,Motor Vehicle Parts Retailing,0.837,2.21,G,3921
+G39220,Tyre Retailing,2.809,5.696,G,3922
+G40000,Fuel Retailing,0.978,2.463,G,4000
+G41100,Supermarket and Grocery Stores,1.223,2.701,G,4110
+G41210,"Fresh Meat, Fish and Poultry Retailing",1.384,3.538,G,4121
+G41220,Fruit and Vegetable Retailing,0.874,2.535,G,4122
+G41230,Liquor Retailing,0.869,1.757,G,4123
+G41290,Other Specialised Food Retailing,0.491,1.407,G,4129
+G42110,Furniture Retailing,0.745,2.175,G,4211
+G42120,Floor Coverings Retailing,0.886,1.863,G,4212
+G42130,Houseware Retailing,1.204,3.424,G,4213
+G42140,Manchester and Other Textile Goods Retailing,0.823,1.834,G,4214
+G42210,"Electrical, Electronic and Gas Appliance Retailing",0.61,1.557,G,4221
+G42220,Computer and Computer Peripheral Retailing,0.169,0.83,G,4222
+G42290,Other Electrical and Electronic Goods Retailing,0.768,1.943,G,4229
+G42310,Hardware and Building Supplies Retailing,1.217,2.965,G,4231
+G42320,Garden Supplies Retailing,1.218,2.414,G,4232
+G42410,Sport and Camping Equipment Retailing,0.608,1.607,G,4241
+G42420,Entertainment Media Retailing,0.169,1.654,G,4242
+G42430,Toy and Game Retailing,1.65,1.962,G,4243
+G42440,Newspaper and Book Retailing,0.506,1.444,G,4244
+G42450,Marine Equipment Retailing,0.994,2.106,G,4245
+G42510,Clothing Retailing,0.517,1.124,G,4251
+G42520,Footwear Retailing,0.205,1.129,G,4252
+G42530,Watch and Jewellery Retailing,0.496,1.265,G,4253
+G42590,Other Personal Accessory Retailing,0.224,1.401,G,4259
+G42600,Department Stores,0.993,2.0,G,4260
+G42710,"Pharmaceutical, Cosmetic and Toiletry Goods Retailing",0.437,0.961,G,4271
+G42720,Stationery Goods Retailing,0.293,1.385,G,4272
+G42730,Antique and Used Goods Retailing,1.55,2.847,G,4273
+G42740,Flower Retailing,1.72,2.305,G,4274
+G42790,Other Store-Based Retailing n.e.c.,1.205,2.655,G,4279
+G43100,Non-Store Retailing,0.794,1.996,G,4310
+G43200,Retail Commission-Based Buying and/or Selling,0.169,1.664,G,4320
+H44000,Accommodation,1.15,2.299,H,4400
+H45110,Cafes and Restaurants,0.461,1.109,H,4511
+H45120,Takeaway Food Services,0.551,1.093,H,4512
+H45130,Catering Services,1.508,3.582,H,4513
+H45200,"Pubs, Taverns and Bars",0.624,1.639,H,4520
+H45300,Clubs (Hospitality),1.298,3.103,H,4530
+I46100,Road Freight Transport,2.361,5.902,I,4610
+I46210,Long Distance Bus Transport,1.272,3.625,I,4621
+I46220,Short Distance Bus Transport (Including Tramway),1.658,3.736,I,4622
+I46230,Taxi and Other Road Transport,0.872,2.917,I,4623
+I47100,Rail Freight Transport,0.85,2.518,I,4710
+I47207,"Rail Passenger Transport, Public Sector",0.869,1.929,I,4720
+I47208,"Rail Passenger Transport, Non-Public Sector",0.631,2.257,I,4720
+I48100,Water Freight Transport,2.333,4.901,I,4810
+I48200,Water Passenger Transport,1.3,3.032,I,4820
+I49000,Air and Space Transport,0.417,1.814,I,4900
+I50100,Scenic and Sightseeing Transport,0.169,2.951,I,5010
+I50210,Pipeline Transport,0.169,3.801,I,5021
+I50290,Other Transport n.e.c.,0.169,3.381,I,5029
+I51010,Postal Services,1.699,3.012,I,5101
+I51020,Courier Pick-Up and Delivery Services,1.648,4.656,I,5102
+I52110,Stevedoring Services,3.85,10.181,I,5211
+I52120,Port and Water Transport Terminal Operations,1.259,4.018,I,5212
+I52190,Other Water Transport Support Services,0.308,1.884,I,5219
+I52200,Airport Operations and Other Air Transport Support Services,1.455,4.0,I,5220
+I52910,Customs Agency Services,0.169,3.096,I,5291
+I52920,Freight Forwarding Services,0.981,2.035,I,5292
+I52990,Other Transport Support Services n.e.c.,0.353,1.117,I,5299
+I53010,Grain Storage Services,0.71,2.708,I,5301
+I53090,Other Warehousing and Storage Services,1.364,3.423,I,5309
+J54110,Newspaper Publishing,0.233,0.736,J,5411
+J54120,Magazine and Other Periodical Publishing,0.169,0.368,J,5412
+J54130,Book Publishing,0.169,0.405,J,5413
+J54140,Directory and Mailing List Publishing,0.526,0.766,J,5414
+J54190,"Other Publishing (Except Software, Music and Internet)",0.169,0.397,J,5419
+J54200,Software Publishing,0.169,0.385,J,5420
+J55110,Motion Picture and Video Production,0.402,0.649,J,5511
+J55120,Motion Picture and Video Distribution,0.169,0.397,J,5512
+J55130,Motion Picture Exhibition,0.169,0.503,J,5513
+J55140,Post-Production Services and Other Motion Picture and Video Activities,0.169,0.391,J,5514
+J55210,Music Publishing,0.169,0.397,J,5521
+J55220,Music and Other Sound Recording Activities,0.169,0.392,J,5522
+J56100,Radio Broadcasting,0.169,0.366,J,5610
+J56210,Free-to-Air Television Broadcasting,0.169,0.36,J,5621
+J56220,Cable and Other Subscription Broadcasting,0.169,0.411,J,5622
+J57000,Internet Publishing and Broadcasting,0.169,0.36,J,5700
+J58010,Wired Telecommunications Network Operation,0.169,0.36,J,5801
+J58020,Other Telecommunications Network Operation,0.169,0.374,J,5802
+J58090,Other Telecommunications Services,0.331,0.392,J,5809
+J59100,Internet Service Providers and Web Search Portals,0.259,0.523,J,5910
+J59210,Data Processing and Web Hosting Services,0.169,0.36,J,5921
+J59220,Electronic Information Storage Services,0.169,0.36,J,5922
+J60100,Libraries and Archives,0.331,0.697,J,6010
+J60200,Other Information Services,3.073,0.569,J,6020
+K62100,Central Banking,0.169,0.363,K,6210
+K62210,Banking,0.169,0.36,K,6221
+K62220,Building Society Operation,0.169,0.363,K,6222
+K62230,Credit Union Operation,0.361,0.499,K,6223
+K62290,Other Depository Financial Intermediation,0.169,0.36,K,6229
+K62300,Non-Depository Financing,0.169,0.365,K,6230
+K62400,Financial Asset Investing,0.169,0.36,K,6240
+K63100,Life Insurance,0.214,0.529,K,6310
+K63210,Health Insurance,0.28,0.559,K,6321
+K63227,"General Insurance, Public Sector",0.729,1.691,K,6322
+K63228,"General Insurance, Non-Public Sector",0.213,0.406,K,6322
+K63300,Superannuation Funds,0.169,0.36,K,6330
+K64110,Financial Asset Broking Services,0.169,0.36,K,6411
+K64190,Other Auxiliary Finance and Investment Services,0.169,0.36,K,6419
+K64200,Auxiliary Insurance Services,0.207,0.523,K,6420
+L66110,Passenger Car Rental and Hiring,0.875,2.028,L,6611
+L66190,Other Motor Vehicle and Transport Equipment Rental and Hiring,0.771,3.433,L,6619
+L66200,Farm Animal and Bloodstock Leasing,0.169,1.03,L,6620
+L66310,Heavy Machinery and Scaffolding Rental and Hiring,1.043,2.936,L,6631
+L66320,Video and Other Electronic Media Rental and Hiring,0.169,1.03,L,6632
+L66390,Other Goods and Equipment Rental and Hiring n.e.c.,0.839,2.009,L,6639
+L66400,Non-Financial Intangible Assets (Except Copyrights) Leasing,0.176,0.836,L,6640
+L67110,Residential Property Operators,0.96,1.727,L,6711
+L67120,Non-Residential Property Operators,0.472,0.889,L,6712
+L67200,Real Estate Services,0.225,0.545,L,6720
+M69100,Scientific Research Services,0.169,0.467,M,6910
+M69210,Architectural Services,0.169,0.36,M,6921
+M69220,Surveying and Mapping Services,0.35,0.557,M,6922
+M69230,Engineering Design and Engineering Consulting Services,0.169,0.36,M,6923
+M69240,Other Specialised Design Services,0.169,0.36,M,6924
+M69250,Scientific Testing and Analysis Services,0.269,0.85,M,6925
+M69310,Legal Services,0.169,0.36,M,6931
+M69320,Accounting Services,0.169,0.36,M,6932
+M69400,Advertising Services,0.169,0.36,M,6940
+M69500,Market Research and Statistical Services,0.169,0.36,M,6950
+M69610,Corporate Head Office Management Services,0.332,0.835,M,6961
+M69620,Management Advice and Related Consulting Services,0.169,0.36,M,6962
+M69700,Veterinary Services,1.019,2.39,M,6970
+M69910,Professional Photographic Services,0.281,0.427,M,6991
+M69990,"Other Professional, Scientific and Technical Services n.e.c.",0.222,0.663,M,6999
+M70000,Computer System Design and Related Services,0.169,0.36,M,7000
+N72110,Employment Placement and Recruitment Services,0.533,1.742,N,7211
+N72120,Labour Hire Services,1.067,3.155,N,7212
+N72200,Travel Agency and Tour Arrangement Services,0.248,0.858,N,7220
+N72910,Office Administrative Services,0.8,1.462,N,7291
+N72920,Document Preparation Services,0.449,2.088,N,7292
+N72930,Credit Reporting and Debt Collection Services,0.313,1.415,N,7293
+N72940,Call Centre Operation,0.678,1.979,N,7294
+N72990,Other Administrative Services n.e.c.,0.347,0.755,N,7299
+N73110,Building and Other Industrial Cleaning Services,1.454,3.292,N,7311
+N73120,Building Pest Control Services,0.612,2.721,N,7312
+N73130,Gardening Services,2.405,5.536,N,7313
+N73200,Packaging Services,0.88,3.08,N,7320
+O75100,Central Government Administration,0.169,3.005,O,7510
+O75200,State Government Administration,0.384,0.971,O,7520
+O75300,Local Government Administration,1.018,2.25,O,7530
+O75400,Justice,0.394,0.823,O,7540
+O75510,Domestic Government Representation,0.169,3.701,O,7551
+O75520,Foreign Government Representation,0.169,3.681,O,7552
+O76000,Defence,0.169,3.552,O,7600
+O77110,Police Services,5.092,9.637,O,7711
+O77120,Investigation and Security Services,1.398,3.641,O,7712
+O77130,Fire Protection and Other Emergency Services,2.61,6.055,O,7713
+O77147,"Correctional and Detention Services, Public Sector",3.866,9.147,O,7714
+O77148,"Correctional and Detention Services, Non-Public Sector",3.195,7.272,O,7714
+O77190,Other Public Order and Safety Services,1.539,3.185,O,7719
+O77200,Regulatory Services,0.597,1.448,O,7720
+P80100,Preschool Education,1.21,2.234,P,8010
+P80217,"Primary Education, Public Sector",0.689,1.493,P,8021
+P80218,"Primary Education, Non-Public Sector",0.397,0.867,P,8021
+P80227,"Secondary Education, Public Sector",0.937,1.982,P,8022
+P80228,"Secondary Education, Non-Public Sector",0.57,1.351,P,8022
+P80237,"Combined Primary and Secondary Education, Public Sector",1.074,1.988,P,8023
+P80238,"Combined Primary and Secondary Education, Non-Public Sector",0.394,0.947,P,8023
+P80247,"Special School Education, Public Sector",2.689,6.182,P,8024
+P80248,"Special School Education, Non-Public Sector",1.111,3.489,P,8024
+P81017,"Technical and Vocational Education and Training, Public Sector",0.975,2.242,P,8101
+P81018,"Technical and Vocational Education and Training, Non-Public Sector",0.258,1.007,P,8101
+P81020,Higher Education,0.169,0.382,P,8102
+P82110,Sports and Physical Recreation Instruction,1.009,2.183,P,8211
+P82120,Arts Education,0.342,1.048,P,8212
+P82190,"Adult, Community and Other Education n.e.c.",0.709,1.794,P,8219
+P82200,Educational Support Services,0.169,1.165,P,8220
+Q84017,"Hospitals (Except Psychiatric Hospitals), Public Sector",0.64,1.596,Q,8401
+Q84018,"Hospitals (Except Psychiatric Hospitals), Non-Public Sector",0.677,1.618,Q,8401
+Q84027,"Psychiatric Hospitals, Public Sector",1.129,2.418,Q,8402
+Q84028,"Psychiatric Hospitals, Non-Public Sector",0.534,1.553,Q,8402
+Q85110,General Practice Medical Services,0.477,1.026,Q,8511
+Q85120,Specialist Medical Services,0.294,0.553,Q,8512
+Q85200,Pathology and Diagnostic Imaging Services,0.514,1.405,Q,8520
+Q85310,Dental Services,0.372,0.882,Q,8531
+Q85320,Optometry and Optical Dispensing,0.169,1.241,Q,8532
+Q85330,Physiotherapy Services,0.211,0.778,Q,8533
+Q85340,Chiropractic and Osteopathic Services,0.211,1.614,Q,8534
+Q85390,Other Allied Health Services,0.455,1.363,Q,8539
+Q85917,"Ambulance Services, Public Sector",4.143,8.32,Q,8591
+Q85918,"Ambulance Services, Non-Public Sector",2.536,4.145,Q,8591
+Q85990,Other Health Care Services n.e.c.,1.067,2.345,Q,8599
+Q86010,Aged Care Residential Services,1.432,3.825,Q,8601
+Q86090,Other Residential Care Services,1.724,5.074,Q,8609
+Q87100,Child Care Services,1.441,3.27,Q,8710
+Q87907,"Other Social Assistance Services, Public Sector",0.917,2.248,Q,8790
+Q87908,"Other Social Assistance Services, Non-Public Sector",1.337,3.103,Q,8790
+R89100,Museum Operation,0.394,1.304,R,8910
+R89210,Zoological and Botanical Gardens Operation,0.47,1.653,R,8921
+R89220,Nature Reserves and Conservation Parks Operation,1.767,4.569,R,8922
+R90010,Performing Arts Operation,0.69,2.0,R,9001
+R90020,"Creative Artists, Musicians, Writers and Performers",0.342,1.547,R,9002
+R90030,Performing Arts Venue Operation,1.354,2.706,R,9003
+R91110,Health and Fitness Centres and Gymnasia Operation,0.363,1.09,R,9111
+R91120,Sports and Physical Recreation Clubs and Sports Professionals,0.47,1.036,R,9112
+R91130,"Sports and Physical Recreation Venues, Grounds and Facilities",0.739,2.083,R,9113
+R91140,Sports and Physical Recreation Administrative Service,0.454,1.198,R,9114
+R91211,Horse Racing Administration and Track Operation,1.728,4.311,R,9121
+R91212,Dog Racing Administration and Track Operation,0.169,2.19,R,9121
+R91291,Other Horse Racing Activities,5.131,11.309,R,9129
+R91292,Other Dog Racing Activities,0.169,2.211,R,9129
+R91310,Amusement Parks and Centres Operation,0.864,1.934,R,9131
+R91390,Amusement and Other Recreational Activities n.e.c.,1.268,2.589,R,9139
+R92010,Casino Operation,0.169,2.23,R,9201
+R92020,Lottery Operation,0.169,2.11,R,9202
+R92090,Other Gambling Activities,0.753,1.549,R,9209
+S94110,Automotive Electrical Services,0.512,1.771,S,9411
+S94120,"Automotive Body, Paint and Interior Repair",0.872,2.487,S,9412
+S94190,Other Automotive Repair and Maintenance,0.887,2.689,S,9419
+S94210,Domestic Appliance Repair and Maintenance,1.202,2.555,S,9421
+S94220,Electronic (Except Domestic Appliance) and Precision Equipment Repair and Maintenance,0.169,1.339,S,9422
+S94290,Other Machinery and Equipment Repair and Maintenance,0.844,2.217,S,9429
+S94910,Clothing and Footwear Repair,0.169,2.115,S,9491
+S94990,Other Repair and Maintenance n.e.c.,2.97,3.766,S,9499
+S95110,Hairdressing and Beauty Services,0.979,1.946,S,9511
+S95120,Diet and Weight Reduction Services,1.094,2.115,S,9512
+S95201,Funeral Services,1.342,3.175,S,9520
+S95202,Crematorium and Cemetery Services,2.0,4.599,S,9520
+S95310,Laundry and Dry-Cleaning Services,2.26,3.741,S,9531
+S95320,Photographic Film Processing,1.23,2.23,S,9532
+S95330,Parking Services,0.723,3.086,S,9533
+S95340,Brothel Keeping and Prostitution Services,1.846,5.516,S,9534
+S95390,Other Personal Services n.e.c.,1.712,3.343,S,9539
+S95400,Religious Services,0.522,1.66,S,9540
+S95510,Business and Professional Association Services,0.363,0.823,S,9551
+S95520,Labour Association Services,0.62,2.2,S,9552
+S95590,Other Interest Group Services n.e.c.,0.522,1.537,S,9559
+S96010,Private Households Employing Staff,0.236,2.349,S,9601
