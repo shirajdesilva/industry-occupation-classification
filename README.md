@@ -27,6 +27,7 @@ Each state publishes classification codes and premium rates in different formats
 | `States/WA PRC/WA PRC.ipynb` | WA PRC Excel | `WA_PRC.parquet` | 517 |
 | `States/VIC/VIC WIC.ipynb` | VIC Government Gazette PDF | `VIC_WIC.parquet` | 519 |
 | `States/NSW/NSW WIC.ipynb` | NSW icare premium rates PDF | `NSW_WIC.parquet` | 538 |
+| `States/QLD/QLD WIC.ipynb` | QLD Government Gazette PDF | `QLD_WIC.parquet` | 562 |
 
 See `Readme/source-files-guide.md` for details on where each file comes from and what format it's in.
 

@@ -192,6 +192,7 @@ I included a mix of:
 - [x] Export classified results to Parquet and Excel
 - [x] Parse VIC WIC codes + rates from Government Gazette PDF into Parquet (519 rows)
 - [x] Parse NSW WIC codes + rates from icare premium rates PDF into Parquet (538 rows)
+- [x] Parse QLD WIC codes + rates from Government Gazette PDF into Parquet (562 rows)
 
 ---
 
@@ -209,7 +210,7 @@ I included a mix of:
 - [ ] Add SA SAIC mapping layer — match effective ANZSIC code to `States/SA/industry_premium_rates_2025-26.parquet` premium rates
 - [ ] Add VIC WorkSafe WIC mapping — match effective ANZSIC code to `States/VIC/VIC_WIC.parquet`
 - [ ] Add NSW icare WIC mapping — match effective ANZSIC code to `States/NSW/NSW_WIC.parquet`
-- [ ] Add QLD WorkCover classification mapping (source data TBD)
+- [ ] Add QLD WorkCover WIC mapping — match effective ANZSIC code to `States/QLD/QLD_WIC.parquet`
 - [ ] Add TAS WorkCover mapping (source data TBD)
 - [ ] Add ACT mapping (source data TBD)
 - [ ] Return state-specific premium rate / WIC code alongside the generic `workcover_code`

@@ -123,13 +123,22 @@ Two PDFs to download:
 
 ### QLD — WorkCover Queensland
 
-**What:** WorkCover Industry Classification (WIC) codes
-**Based on:** ANZSIC
+**What:** WorkCover Industry Classification (WIC) codes + industry premium rates
+**# of codes:** 562 (539 standard + 19 labour hire divisional + 4 group training)
+**Based on:** ANZSIC 2006
 
 **Download from:**
 https://www.worksafe.qld.gov.au/claims-and-insurance/workcover-insurance/premium-calculation/wic
 
-> WIC codes published in the **Queensland Government Gazette**
+> WIC codes and rates published in the **Queensland Government Gazette** (Schedule 3)
+> 2025-26 rates: Queensland Government Gazette No. 41, published 20 June 2025
+
+**Parsed by:** `States/QLD/QLD WIC.ipynb` → `QLD_WIC.parquet` (562 rows)
+
+**QLD-specific notes:**
+- WIC codes are 6-digit: 4-digit ANZSIC class + 2 WorkCover-specific digits
+- Labour hire employers get allocated all 19 divisional WICs (A01100 through S94000)
+- Group training organisations use special codes 8101G1-G4
 
 ### SA — ReturnToWorkSA
 
@@ -192,7 +201,7 @@ Published annually by independent actuarial analysis.
 | SA SAIC rates | **P1 — Easy win** | Low | Available as DOCX download |
 | NSW WIC codes + rates | **P1 — Done** | High | Parsed by `States/NSW/NSW WIC.ipynb` → 538 rows |
 | VIC WIC rates | **P1 — Done** | High | Parsed by `States/VIC/VIC WIC.ipynb` → 519 rows |
-| QLD WIC codes | **P2** | Medium | Government Gazette PDF |
+| QLD WIC codes | **P2 — Done** | Medium | Parsed by `States/QLD/QLD WIC.ipynb` → 562 rows |
 | TAS rates | **P3** | Medium | Actuarial report PDF |
 | ACT rates | **P3** | Medium | Actuarial publication |
 | NT | **Skip for MVP** | N/A | No published rates |
