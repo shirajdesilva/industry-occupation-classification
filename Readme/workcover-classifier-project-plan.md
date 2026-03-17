@@ -190,6 +190,8 @@ I included a mix of:
 - [x] Implement state-based routing (NSW labour hire → occupation; all others → industry)
 - [x] Evaluate accuracy against synthetic ground truth (Precision@1: 33.4%)
 - [x] Export classified results to Parquet and Excel
+- [x] Parse VIC WIC codes + rates from Government Gazette PDF into Parquet (519 rows)
+- [x] Parse NSW WIC codes + rates from icare premium rates PDF into Parquet (538 rows)
 
 ---
 
@@ -205,7 +207,8 @@ I included a mix of:
 ### State-specific WIC mapping
 - [ ] Add WA PRC mapping layer — match effective ANZSIC code to `States/WA PRC/WA_PRC.parquet` premium rating codes
 - [ ] Add SA SAIC mapping layer — match effective ANZSIC code to `States/SA/industry_premium_rates_2025-26.parquet` premium rates
-- [ ] Add VIC WorkSafe WIC mapping (source data TBD)
+- [ ] Add VIC WorkSafe WIC mapping — match effective ANZSIC code to `States/VIC/VIC_WIC.parquet`
+- [ ] Add NSW icare WIC mapping — match effective ANZSIC code to `States/NSW/NSW_WIC.parquet`
 - [ ] Add QLD WorkCover classification mapping (source data TBD)
 - [ ] Add TAS WorkCover mapping (source data TBD)
 - [ ] Add ACT mapping (source data TBD)

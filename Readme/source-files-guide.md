@@ -89,22 +89,15 @@ A separate file is needed for each state. Starting with VIC and NSW (biggest mar
 ### VIC — WorkSafe Victoria
 
 **What:** WorkCover Industry Classification (WIC) codes + industry rates
-**# of codes:** ~510
+**# of codes:** 519
 **Based on:** ANZSIC 2006
 
 **Download from:**
 - Industry rates: https://www.worksafe.vic.gov.au/industry-rates-and-key-dates
 - Full WIC code list: Published in the **Victoria Government Gazette** (Special Gazette, published annually ~May/June)
   - 2025-26 rates: Special Gazette No. S 275, published 3 June 2025
-  - These are PDFs — they'll need parsing
 
-**File format to create:**
-
-```
-vic_wic_code,wic_description,anzsic_class_code,industry_rate_pct,year
-692100,Computer Consultancy Services,6921,0.427,2025-26
-301100,House Construction,3011,4.850,2025-26
-```
+**Parsed by:** `States/VIC/VIC WIC.ipynb` → `VIC_WIC.parquet` (519 rows across 19 ANZSIC divisions)
 
 ### NSW — icare
 
@@ -126,13 +119,7 @@ Two PDFs to download:
 - NSW has a special **Labour Hire rule**: the WIC for each placed worker is based on "the activity most closely associated with the occupation of the worker"
 - NSW has 17 Industry Divisions (A through Q)
 
-**File format to create:**
-
-```
-nsw_wic_code,wic_description,division,premium_rate_pct,dust_disease_rate,year
-692100,Computer Consultancy Services,L,0.343,0.010,2025-26
-786100,Employment Placement Services,N,1.280,0.010,2025-26
-```
+**Parsed by:** `States/NSW/NSW WIC.ipynb` → `NSW_WIC.parquet` (538 rows: 526 percentage-rate + 12 flat-rate)
 
 ### QLD — WorkCover Queensland
 
@@ -203,8 +190,8 @@ Published annually by independent actuarial analysis.
 | ANZSIC codes | **P1 — Critical** | Low | ABS provides clean spreadsheet download |
 | WA PRC codes | **P1 — Easy win** | Low | Already in Excel format! Starting here for state data |
 | SA SAIC rates | **P1 — Easy win** | Low | Available as DOCX download |
-| NSW WIC codes + rates | **P1 — Critical** | High | 300-page PDF needs parsing (considering a PDF extraction library or doing key codes manually) |
-| VIC WIC rates | **P1 — Critical** | High | Government Gazette PDF needs parsing |
+| NSW WIC codes + rates | **P1 — Done** | High | Parsed by `States/NSW/NSW WIC.ipynb` → 538 rows |
+| VIC WIC rates | **P1 — Done** | High | Parsed by `States/VIC/VIC WIC.ipynb` → 519 rows |
 | QLD WIC codes | **P2** | Medium | Government Gazette PDF |
 | TAS rates | **P3** | Medium | Actuarial report PDF |
 | ACT rates | **P3** | Medium | Actuarial publication |
