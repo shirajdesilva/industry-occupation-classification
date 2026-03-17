@@ -1,8 +1,19 @@
 # WorkCover Classification Engine — Project Plan
 
+## Why This Document Exists
+
+This is the roadmap for solving all three problems:
+1. **Source files are a mess** — I'm automating the parsing of each state's raw classification data into clean Parquet (see `Readme/source-files-guide.md` for where each file comes from)
+2. **State rules are unclear** — I've codified the state-by-state routing logic into the pipeline (see `Readme/classification-method-by-state.md` for the research)
+3. **Manual classification is slow** — the architecture below replaces manual job title → code mapping with embedding-based similarity matching
+
+This doc covers the architecture, tech stack, what's done, and what's left to build.
+
+---
+
 ## Project Overview
 
-An intelligent classification system that takes messy, free-text employee job titles and automatically maps them to:
+I'm building an intelligent classification system that takes messy, free-text employee job titles and automatically maps them to:
 1. **ANZSCO codes** (Australian and New Zealand Standard Classification of Occupations)
 2. **Workers' compensation industry/occupation codes** based on the employee's state jurisdiction
 
@@ -114,141 +125,13 @@ For industry classification (some states use industry codes for premium rates):
 
 ### 3. State Workers' Compensation Classification Systems
 
-#### Critical Insight: ALL States Use INDUSTRY-Based Classification
-
-A common misconception is that some states classify by occupation and others by industry.
-In fact, **every Australian state and territory classifies employers by their predominant
-business activity (industry)**, not by individual worker occupations. They all derive their
-systems from ANZSIC (Australian and New Zealand Standard Industrial Classification) 2006,
-but each state has its own naming convention, number of codes, and premium rates.
-
-The classification is applied to the **employer's business**, not to individual workers.
-For example, a receptionist working at a construction company is classified under the
-construction industry WIC — not under an "administration" code.
-
-#### The Labour Hire Exception (Critical for This Project!)
-
-The one major exception is **labour hire / staffing companies**. In most states, labour hire firms must classify
-each placed worker based on the **activity/industry of the host employer** (i.e., what the
-worker actually does or where they're placed), NOT under a single "labour hire" industry code.
-
-For example, in NSW: "The class applicable to each category of worker hired out is the class
-that applies to the activity most closely associated with the occupation of the worker
-provided by the labour hire business." (icare WIC System documentation)
-
-Similarly in WA: A labourer, project manager, engineer and accountant supplied to a mineral
-exploration business would all be classified under PRC 10120 (Mineral Exploration), not under
-a generic labour hire code.
-
-This means **staffing companies must effectively do BOTH**:
-1. Map the worker's occupation/job title to understand what they do
-2. Determine the host employer's industry classification
-3. Apply the correct state-specific WIC/classification code
-
-This is exactly the problem this tool solves.
-
-#### State-by-State Classification Details
-
-| State | Regulator | Classification System | Code Name | # of Codes | Based On | Scheme Type | Premium Rates Set By |
-|---|---|---|---|---|---|---|---|
-| **VIC** | WorkSafe Victoria | WorkCover Industry Classification | WIC | ~510 | ANZSIC 2006 | Government-run (public underwriting) | WorkSafe, gazetted annually |
-| **NSW** | icare / SIRA | Workers Compensation Industry Classification | WIC | 538 | ANZSIC (with NSW-specific variations) | Government-run (public underwriting) | icare, filed with SIRA annually |
-| **QLD** | WorkCover Queensland | WorkCover Industry Classification | WIC | ~500+ | ANZSIC | Government-run (public underwriting) | Published in QLD Government Gazette |
-| **SA** | ReturnToWorkSA | South Australian Industry Classification | SAIC | 528 | ANZSIC 2006 | Government-run (public underwriting) | ReturnToWorkSA, published annually |
-| **WA** | WorkCover WA | Premium Rating Classification | PRC | ~500+ | ANZSIC 2006 (with WA-specific variations, adds "0" to 4-digit ANZSIC) | Privately underwritten | WorkCover WA recommends rates; private insurers set actual premiums |
-| **TAS** | WorkSafe Tasmania (WorkCover Tasmania Board) | ANZSIC Class (direct) | ANZSIC | ~500+ | ANZSIC 2006 directly | Privately underwritten | WorkCover Tasmania Board publishes suggested rates; private insurers set actual premiums |
-| **NT** | NT WorkSafe | Industry category (insurer-determined) | ANZSIC-based | Varies | ANZSIC (1993 still referenced in some stats) | Privately underwritten | **No gazetted rates** — insurers have full commercial independence to set rates |
-| **ACT** | WorkSafe ACT | ANZSIC Class | ANZSIC | ~500+ | ANZSIC 2006 | Privately underwritten | Suggested reasonable rates published annually by independent actuary |
-
-#### Key Differences Between States
-
-**Government-run vs Private schemes:**
-- **Government-run** (VIC, NSW, QLD, SA): Single insurer (the government authority). Employers must insure with the state scheme. Rates are gazetted/regulated.
-- **Privately underwritten** (WA, TAS, NT, ACT): Multiple private insurers compete for business. Employers can shop around. Regulators publish recommended/suggested rates but insurers can vary.
-
-**Classification methodology:**
-- All states classify based on **predominant business activity** (what the employer mainly does)
-- If an employer has multiple distinct business activities, some states allow split classifications (different WICs for different parts of the business with wages allocated accordingly)
-- **Labour hire is the exception**: workers are classified by the host employer's activity / worker's occupation
-
-**WIC code structure examples:**
-- VIC WIC: 6-digit numeric codes (e.g., 692100 = Computer Consultancy Services)
-- NSW WIC: 6-digit numeric codes (e.g., 786100 = Employment Placement Services)
-- WA PRC: 5-digit numeric codes (ANZSIC 4-digit + "0", e.g., 69210 = Management Advice and Related Consulting Services)
-- SA SAIC: Aligned to ANZSIC 2006 codes
-- TAS/ACT: Use ANZSIC 2006 class codes directly (4-digit)
-
-#### Data Sources for Each State
-
-| State | Where to Find Classification Codes & Rates |
-|---|---|
-| VIC | WorkSafe Victoria — "Industry rates and key dates" page; Victorian Government Gazette (Special Gazette published annually ~May/June) |
-| NSW | icare — "WIC System and Premium Rates" page; downloadable PDF of full WIC system + rates for each year (2016-17 through 2025-26 available) |
-| QLD | WorkSafe QLD — "WorkCover Industry Classifications (WICs)" page; QLD Government Gazette |
-| SA | ReturnToWorkSA — "Industry classifications and rates" page; SAIC premium rate schedule (DOCX download available) |
-| WA | WorkCover WA — "Premium Rating Classification" page; Industry Classification Order PDF + Excel list of PRC codes with recommended rates |
-| TAS | WorkSafe Tasmania — Suggested Premium Rates report (annual, KPMG-prepared actuarial report with ANZSIC-level rates) |
-| NT | NT WorkSafe — No published industry rates (insurers set independently). ANZSIC used as reference but not formally gazetted. |
-| ACT | WorkSafe ACT — Suggested reasonable rates by ANZSIC class published annually |
-
-#### Implications for the Classification Tool
-
-Given that ALL states use industry-based classification, the tool's pipeline should be:
-
-**For standard employers:**
-```
-Input: Job title + State + Employer industry (ANZSIC or description)
-                                    │
-                                    ▼
-                    ┌──────────────────────────┐
-                    │ 1. Map job title → ANZSCO │  (occupation classification)
-                    │    (for reporting/context)│
-                    └──────────┬───────────────┘
-                               │
-                               ▼
-                    ┌──────────────────────────┐
-                    │ 2. Use employer's ANZSIC  │  (industry classification)
-                    │    to determine state WIC │
-                    └──────────┬───────────────┘
-                               │
-                               ▼
-                    ┌──────────────────────────┐
-                    │ 3. Look up state-specific │
-                    │    WIC code + premium rate│
-                    └──────────────────────────┘
-```
-
-**For labour hire / staffing companies (the high-value use case):**
-```
-Input: Job title + State + Host employer industry
-                    │
-                    ▼
-        ┌──────────────────────────────┐
-        │ 1. Map job title → ANZSCO    │  (what the worker actually does)
-        │    This MATTERS here because │
-        │    it determines the WIC     │
-        └──────────┬───────────────────┘
-                   │
-                   ▼
-        ┌──────────────────────────────┐
-        │ 2. Determine host employer's │  (where the worker is placed)
-        │    ANZSIC from occupation +  │
-        │    host industry context     │
-        └──────────┬───────────────────┘
-                   │
-                   ▼
-        ┌──────────────────────────────┐
-        │ 3. Map to state-specific     │
-        │    WIC code + premium rate   │
-        └──────────────────────────────┘
-```
-
-This dual-pathway approach is what makes the tool genuinely useful — it handles both
-regular employers AND the much more complex labour hire scenario.
+The state-by-state rules and data sources are documented separately:
+- **`Readme/classification-method-by-state.md`** — how each state classifies workers (standard employers vs labour hire), the critical NSW occupation-based exception, and the summary matrix
+- **`Readme/source-files-guide.md`** — where to download each state's classification codes and premium rates, file formats, and parsing priority
 
 ### 4. Synthetic Employee Sample Data
 
-Generate ~500-1,000 synthetic employee records that simulate real-world messiness:
+I generated ~500-1,000 synthetic employee records that simulate real-world messiness:
 
 ```
 Fields:
@@ -282,7 +165,7 @@ This dual-field approach (employer_industry + host_employer_industry) is critica
 | Chef | Head Chef, Chef de Partie, Cook, Kitchen Hand/Chef |
 | Civil Engineer | Civil Eng, Structural Engineer, Civil/Structural Eng |
 
-Include a mix of:
+I included a mix of:
 - White collar / blue collar / trades / healthcare / hospitality
 - Different seniority levels (junior, senior, lead, head of)
 - Abbreviations and slang

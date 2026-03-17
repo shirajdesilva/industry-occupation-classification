@@ -1,5 +1,11 @@
 # WorkCover Classification Method — State-by-State Summary
 
+## Why This Document Exists
+
+This is the research behind **Problem 2: State rules are unclear and inconsistent.** Every state has its own classification system derived from ANZSIC, but the rules — especially for labour hire — are scattered across regulatory PDFs, Government Gazettes, and insurer documentation. I spent time digging through these sources to understand exactly how each state works so the pipeline can apply the right logic automatically. This doc captures what I found.
+
+---
+
 ## Standard Employers (non-labour hire)
 
 **ALL states use the same approach**: classification is based on the **employer's predominant business activity (industry)**, NOT on what individual workers do.
@@ -41,7 +47,7 @@ This is the critical distinction. When a labour hire / staffing company places a
 
 **Exception**: Office/admin staff of the labour hire company itself (whose job is placing workers) go under WIC 786100 Employment Placement Services.
 
-**Implication for the tool**: In NSW, the ANZSCO classification (job title → occupation) is the PRIMARY driver for labour hire WIC determination. You MUST know what the worker does.
+**Implication for my pipeline**: In NSW, the ANZSCO classification (job title → occupation) is the PRIMARY driver for labour hire WIC determination. I must know what the worker does.
 
 ---
 
@@ -61,7 +67,7 @@ This is the critical distinction. When a labour hire / staffing company places a
 
 QLD has 20 specialised labour hire WIC codes that map to broad industry groupings of the host employer.
 
-**Implication for the tool**: In QLD, the host employer's ANZSIC code is the PRIMARY driver. The worker's occupation is less relevant (though still useful context).
+**Implication for my pipeline**: In QLD, the host employer's ANZSIC code is the PRIMARY driver. The worker's occupation is less relevant (though still useful context).
 
 ---
 
@@ -77,7 +83,7 @@ QLD has 20 specialised labour hire WIC codes that map to broad industry grouping
 
 VIC uses an "imputed workplace" system where the labour hire provider registers each client's workplace with their WorkSafe Agent, and the workplace gets the client's industry classification.
 
-**Implication for the tool**: In VIC, the host employer's ANZSIC code drives the classification. Worker occupation is secondary.
+**Implication for my pipeline**: In VIC, the host employer's ANZSIC code drives the classification. Worker occupation is secondary.
 
 ---
 
@@ -93,7 +99,7 @@ VIC uses an "imputed workplace" system where the labour hire provider registers 
 
 **Exception**: If workers are predominantly clerical staff, they may go under PRC 72120 "Labour Supply Services – Predominantly Clerical Staff".
 
-**Implication for the tool**: Host employer's ANZSIC is primary, but worker occupation matters for identifying the clerical staff exception.
+**Implication for my pipeline**: Host employer's ANZSIC is primary, but worker occupation matters for identifying the clerical staff exception.
 
 ---
 
@@ -126,34 +132,7 @@ These smaller jurisdictions follow the general industry-based approach. NT has n
 
 ---
 
-## What This Means for the Classification Tool
+## How This Feeds Into the Pipeline
 
-### The ANZSCO step (job title → occupation) is essential because:
-
-1. **NSW labour hire** — it's literally the classification method. Without knowing the occupation, you can't determine the WIC.
-2. **WA clerical exception** — you need to know if the worker is predominantly clerical.
-3. **Reporting and analytics** — even in states that classify by host industry, knowing the occupation is valuable for workforce analytics, compliance reporting, and visa/immigration purposes.
-4. **Standard employers** — while the WIC is industry-based, the occupation is still captured on claim forms and is used for statistical reporting by Safe Work Australia.
-
-### The ANZSIC step (employer/host industry) is essential because:
-
-1. **All states for standard employers** — it's the universal classification method.
-2. **VIC, QLD, WA, SA, TAS, ACT for labour hire** — host employer industry drives the classification.
-3. **NSW labour hire** — even though occupation drives the WIC, you still need the industry context to find "the activity most closely associated with the occupation."
-
-### Pipeline logic:
-
-```
-IF standard employer:
-    → Use employer's ANZSIC → state WIC code (all states)
-
-IF labour hire AND state = NSW:
-    → Map job title → ANZSCO occupation
-    → Find WIC "most closely associated with the occupation"
-    → (This means mapping occupation → related industry WIC)
-
-IF labour hire AND state = VIC/QLD/WA/SA/TAS/ACT:
-    → Use host employer's ANZSIC → state WIC code
-    → (Worker's ANZSCO is captured for reporting but doesn't drive the WIC)
-```
+The research above is what drives the state routing logic in `Ingest_employees_data.ipynb`. In short: both the ANZSCO step (job title → occupation) and the ANZSIC step (employer/host industry) are essential — which one is the *primary driver* depends on the state and whether the worker is labour hire. See the main `README.md` for the pipeline overview, and `Readme/workcover-classifier-project-plan.md` for the full architecture and roadmap.
 
