@@ -18,7 +18,7 @@ The pipeline applies a specialized router for labour hire employees where state 
 *   **Logic:** Classification is driven by the **worker's actual occupation**.
 *   **Pipeline Action:** Prioritizes the ANZSCO matching step (job title → occupation) as the primary key for WIC determination.
 
-#### **VIC, QLD, WA, SA: Industry-Driven Matching**
+#### **VIC, QLD, WA, SA, TAS, ACT: Industry-Driven Matching**
 *   **Logic:** Classification is driven by the **host employer's industry**.
 *   **Pipeline Action:** Uses the host employer's ANZSIC code as the primary key. In WA, the pipeline specifically checks for clerical roles to apply specialized "Predominantly Clerical Staff" exceptions.
 
@@ -33,6 +33,8 @@ The pipeline applies a specialized router for labour hire employees where state 
 | **QLD** | Host Employer's Industry | ANZSIC (Primary) |
 | **WA** | Host Employer's Industry | ANZSIC (Primary) |
 | **SA** | Host Employer's Industry | ANZSIC (Primary) |
+| **TAS** | Host Employer's Industry | ANZSIC (Primary) |
+| **ACT** | Host Employer's Industry | ANZSIC (Primary) |
 
 ---
 

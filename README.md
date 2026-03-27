@@ -3,7 +3,7 @@
 ## The Commercial Problem: Cross-State Compliance
 Classifying employees for Australian Workers' Compensation (WorkCover) is a notorious manual burden for businesses operating nationally. Mapping state-based WorkCover Industry Classification (WIC) codes to standardized national codes (like ANZSIC or ANZSCO) is messy and labor-intensive due to:
 
-- **Fragmented Data:** Each state (VIC, NSW, QLD, WA, SA, TAS) publishes its own classification codes in inconsistent formats—ranging from 300-page PDFs and Word docs to Government Gazettes.
+- **Fragmented Data:** Each state/territory (VIC, NSW, QLD, WA, SA, TAS, ACT) publishes its own classification codes in inconsistent formats—ranging from 300-page PDFs and Word docs to Government Gazettes.
 - **Inconsistent Regulatory Rules:** Rules vary significantly by jurisdiction. For example, NSW classifies labour hire based on the worker's *occupation*, while VIC, QLD, and WA use the *host employer's industry*.
 - **Manual Mapping Risks:** Manually mapping messy job titles is slow and error-prone, leading to **premium leakage** (overpaying) or **audit non-compliance**.
 

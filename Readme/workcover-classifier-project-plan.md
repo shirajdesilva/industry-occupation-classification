@@ -9,7 +9,7 @@ Manual classification of employees across multiple state jurisdictions is slow, 
 
 ### 1. Data Foundation (The Ingestion Layer)
 *   **Goal:** Convert messy PDF/Word/Excel source files into structured Parquet.
-*   **Status:** Complete for VIC, NSW, QLD, WA, and SA.
+*   **Status:** Complete for VIC, NSW, QLD, WA, SA, TAS, and ACT.
 
 ### 2. Semantic Engine (The Embedding Layer)
 *   **Goal:** Use `all-MiniLM-L6-v2` to map free-text job titles to official ANZSCO occupation codes.
