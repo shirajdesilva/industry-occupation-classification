@@ -24,17 +24,18 @@ The pipeline applies a specialized router for labour hire employees where state 
 
 ---
 
-## Routing Summary Matrix
+## Classification System by State
 
-| State | Primary Classification Driver (Labour Hire) | Taxonomy Priority |
-|---|---|---|
-| **NSW** | **Worker's Occupation** | ANZSCO (Primary) |
-| **VIC** | Host Employer's Industry | ANZSIC (Primary) |
-| **QLD** | Host Employer's Industry | ANZSIC (Primary) |
-| **WA** | Host Employer's Industry | ANZSIC (Primary) |
-| **SA** | Host Employer's Industry | ANZSIC (Primary) |
-| **TAS** | Host Employer's Industry | ANZSIC (Primary) |
-| **ACT** | Host Employer's Industry | ANZSIC (Primary) |
+| State | Classification System | Based On | Approach |
+|---|---|---|---|
+| **VIC** | WIC (~510 codes) | ANZSIC 2006 | Employer's predominant business activity |
+| **NSW** | WIC (538 codes) | ANZSIC (NSW variations) | Employer's predominant business activity |
+| **QLD** | WIC (~500+ codes) | ANZSIC | Employer's predominant business activity |
+| **SA** | SAIC (528 codes) | ANZSIC 2006 | Employer's predominant business activity |
+| **WA** | PRC (~500+ codes) | ANZSIC 2006 (+ WA variations) | Employer's predominant business activity |
+| **TAS** | ANZSIC class codes | ANZSIC 2006 directly | Employer's predominant business activity |
+| **ACT** | ANZSIC class codes | ANZSIC 2006 directly | Employer's predominant business activity |
+| **NT** | Insurer-determined | ANZSIC-based | Employer's predominant business activity |
 
 ---
 
